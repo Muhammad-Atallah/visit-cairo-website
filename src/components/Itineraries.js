@@ -1,5 +1,5 @@
 import React from "react";
-import Itinerary from "./Itinerary";
+import { NavLink } from "react-router-dom";
 
 const Itineraries = () => {
   return (
@@ -15,10 +15,38 @@ const Itineraries = () => {
         </p>
       </div>
       <div className="grid grid-cols-2 xl:grid-cols-4 w-full items-center">
-        <Itinerary text="1 Day" />
-        <Itinerary text="3 Days" />
-        <Itinerary text="5 Days" />
-        <Itinerary text="7 Days" />
+        <NavLink
+          to="Itinerary page/one day"
+          className="w-24 h-20 sm:w-40 sm:h-36 xl:w-48 xl:h-44 m-5 bg-[#FFACAC] flex justify-center rounded group cursor-pointer hover:-translate-y-4 transition duration-500 place-self-center"
+        >
+          <div className="w-[85%] h-[85%] m-auto flex justify-center text-white border-[1px] border-white">
+            <h1 className="m-auto text-md sm:text-xl ">1 Day</h1>
+          </div>
+        </NavLink>
+        <NavLink
+          to="Itinerary page/three days"
+          className="w-24 h-20 sm:w-40 sm:h-36 xl:w-48 xl:h-44 m-5 bg-[#FFACAC] flex justify-center rounded group cursor-pointer hover:-translate-y-4 transition duration-500 place-self-center"
+        >
+          <div className="w-[85%] h-[85%] m-auto flex justify-center text-white border-[1px] border-white">
+            <h1 className="m-auto text-md sm:text-xl ">3 Days</h1>
+          </div>
+        </NavLink>
+        <NavLink
+          to="Itinerary page/five days"
+          className="w-24 h-20 sm:w-40 sm:h-36 xl:w-48 xl:h-44 m-5 bg-[#FFACAC] flex justify-center rounded group cursor-pointer hover:-translate-y-4 transition duration-500 place-self-center"
+        >
+          <div className="w-[85%] h-[85%] m-auto flex justify-center text-white border-[1px] border-white">
+            <h1 className="m-auto text-md sm:text-xl ">5 Days</h1>
+          </div>
+        </NavLink>
+        <NavLink
+          to="Itinerary page/seven days"
+          className="w-24 h-20 sm:w-40 sm:h-36 xl:w-48 xl:h-44 m-5 bg-[#FFACAC] flex justify-center rounded group cursor-pointer hover:-translate-y-4 transition duration-500 place-self-center"
+        >
+          <div className="w-[85%] h-[85%] m-auto flex justify-center text-white border-[1px] border-white">
+            <h1 className="m-auto text-md sm:text-xl ">7 Days</h1>
+          </div>
+        </NavLink>
       </div>
     </div>
   );

@@ -22,6 +22,7 @@ import Ancient from "./pages/go/Ancient";
 import LocalPage from "./pages/LocalPage";
 import LocalPageLayout from "./layouts/LocalPageLayout";
 import ItinerarayPage from "./pages/ItinerarayPage";
+import ItineraryLayout from "./layouts/ItineraryLayout";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -42,7 +43,12 @@ const router = createBrowserRouter(
       </Route>
       <Route path="locals recommend" element={<LocalsRecommend />} />
       <Route path="local page" element={<LocalPageLayout />} />
-      <Route path="Itinerary page" element={<ItinerarayPage />} />
+      <Route path="Itinerary page" element={<ItineraryLayout />}>
+        <Route path="one day" element={<ItinerarayPage />} />
+        <Route path="three days" element={<ItinerarayPage />} />
+        <Route path="five days" element={<ItinerarayPage />} />
+        <Route path="seven days" element={<ItinerarayPage />} />
+      </Route>
     </Route>
   )
 );
