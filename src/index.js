@@ -5,6 +5,7 @@ import App from "./App";
 import { PageProvider } from "./contexts/PageContext";
 import { CurrentLocalProvider } from "./contexts/CurrentLocalContext";
 import { CurrentGoPageProvider } from "./contexts/CurrentGoPageContext";
+import { ItineraryProvider } from "./contexts/CurrentItineraryContext";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -12,7 +13,9 @@ root.render(
     <PageProvider>
       <CurrentLocalProvider>
         <CurrentGoPageProvider>
-          <App />
+          <ItineraryProvider>
+            <App />
+          </ItineraryProvider>
         </CurrentGoPageProvider>
       </CurrentLocalProvider>
     </PageProvider>

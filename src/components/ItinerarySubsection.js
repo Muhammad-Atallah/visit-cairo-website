@@ -1,11 +1,11 @@
 import React from "react";
 import { AiOutlineLink } from "react-icons/ai";
 
-const ItinerarySubsection = ({ favoriteSpots, timeOfDay }) => {
+const ItinerarySubsection = ({ data, timeOfDay }) => {
   return (
     <div className="flex flex-col gap-5">
       <h1 className="text-lg font-semibold">{timeOfDay}</h1>
-      {favoriteSpots.map((item) => (
+      {data.map((item) => (
         <div className="flex flex-col md:flex-row gap-4 p-5 border-2 hover:border-4 rounded-sm">
           <img
             className="w-[20rem] md:w-[14rem] object-cover self-center rounded-sm"

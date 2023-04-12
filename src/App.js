@@ -43,20 +43,8 @@ const router = createBrowserRouter(
       </Route>
       <Route path="locals recommend" element={<LocalsRecommend />} />
       <Route path="local page" element={<LocalPageLayout />} />
-      <Route path="Itinerary page" element={<ItineraryLayout />}>
-        <Route path="one day" element={<ItinerarayPage numberOfDays={[1]} />} />
-        <Route
-          path="three days"
-          element={<ItinerarayPage numberOfDays={[1, 2, 3]} />}
-        />
-        <Route
-          path="five days"
-          element={<ItinerarayPage numberOfDays={[1, 2, 3, 4, 5]} />}
-        />
-        <Route
-          path="seven days"
-          element={<ItinerarayPage numberOfDays={[1, 2, 3, 4, 5, 6, 7]} />}
-        />
+      <Route path="ItineraryLayout" element={<ItineraryLayout />}>
+        <Route path="ItinerarayPage" element={<ItinerarayPage />} />
       </Route>
     </Route>
   )

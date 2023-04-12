@@ -1,12 +1,27 @@
-import React, { useState } from "react";
+import React, { useContext } from "react";
 import { Outlet } from "react-router-dom";
+import CurrentItineraryContext from "../contexts/CurrentItineraryContext";
 
 const ItineraryLayout = () => {
-  const [activeSection, setActiveSection] = useState("oneDay");
+  const {
+    activeItinerary,
+    setActiveItinerary,
+    numberOfDays,
+    setNumberOfDays,
+    currentItineraryDay,
+    setCurrentItineraryDay,
+  } = useContext(CurrentItineraryContext);
 
-  const handleActiveSection = (numberOfDays) => {
-    setActiveSection(numberOfDays);
+  const handleActiveSection = (number = "oneDay") => {
+    setActiveItinerary(number);
   };
+
+  const handleNumberOfDays = (number) => {
+    setNumberOfDays(number);
+  };
+
+  console.log("Active itinerary from layout " + activeItinerary);
+
   return (
     <div className="max-w-[1600px] m-auto border-b-2 px-2 py-10 sm:pb-14 sm:px-14 flex flex-col justify-center items-center">
       <div className="w-full sm:mb-5 md:mb-10">
@@ -20,9 +35,13 @@ const ItineraryLayout = () => {
         </p>
         <div className="max-w-[1600px] text-xs sm:text-sm border-b-2 flex gap-10 sm:gap-16 justify-start">
           <h1
-            onClick={() => handleActiveSection("oneDay")}
+            onClick={() => {
+              handleActiveSection("oneDay");
+              handleNumberOfDays([1]);
+              setCurrentItineraryDay(1);
+            }}
             className={
-              activeSection === "oneDay"
+              activeItinerary === "oneDay"
                 ? "cursor-pointer py-3 border-b-4 border-[#FFACAC] hover:border-[#FFACAC] transition duration-400 ease-in-out font-bold"
                 : "cursor-pointer py-3 border-b-4 border-white hover:border-[#FFACAC] transition duration-400 ease-in-out"
             }
@@ -30,9 +49,13 @@ const ItineraryLayout = () => {
             1 Day
           </h1>
           <h1
-            onClick={() => handleActiveSection("twoDays")}
+            onClick={() => {
+              handleActiveSection("threeDays");
+              handleNumberOfDays([1, 2, 3]);
+              setCurrentItineraryDay(1);
+            }}
             className={
-              activeSection === "twoDays"
+              activeItinerary === "threeDays"
                 ? "cursor-pointer py-3 border-b-4 border-[#FFACAC] hover:border-[#FFACAC] transition duration-400 ease-in-out font-bold"
                 : "cursor-pointer py-3 border-b-4 border-white hover:border-[#FFACAC] transition duration-400 ease-in-out"
             }
@@ -40,9 +63,13 @@ const ItineraryLayout = () => {
             3 Days
           </h1>
           <h1
-            onClick={() => handleActiveSection("threeDays")}
+            onClick={() => {
+              handleActiveSection("fiveDays");
+              handleNumberOfDays([1, 2, 3, 4, 5]);
+              setCurrentItineraryDay(1);
+            }}
             className={
-              activeSection === "threeDays"
+              activeItinerary === "fiveDays"
                 ? "cursor-pointer py-3 border-b-4 border-[#FFACAC] hover:border-[#FFACAC] transition duration-400 ease-in-out font-bold"
                 : "cursor-pointer py-3 border-b-4 border-white hover:border-[#FFACAC] transition duration-400 ease-in-out"
             }
@@ -50,9 +77,13 @@ const ItineraryLayout = () => {
             5 Days
           </h1>
           <h1
-            onClick={() => handleActiveSection("fourDays")}
+            onClick={() => {
+              handleActiveSection("sevenDays");
+              handleNumberOfDays([1, 2, 3, 4, 5, 6, 7]);
+              setCurrentItineraryDay(1);
+            }}
             className={
-              activeSection === "fourDays"
+              activeItinerary === "sevenDays"
                 ? "cursor-pointer py-3 border-b-4 border-[#FFACAC] hover:border-[#FFACAC] transition duration-400 ease-in-out font-bold"
                 : "cursor-pointer py-3 border-b-4 border-white hover:border-[#FFACAC] transition duration-400 ease-in-out"
             }

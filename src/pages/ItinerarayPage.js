@@ -1,12 +1,26 @@
-import React, { useState } from "react";
+import React, { useContext } from "react";
 import ItinerarySection from "../components/ItinerarySection";
-import { favoriteSpots } from "../data/itinerariesData";
+import {
+  oneDayData,
+  threeDayData,
+  fiveDayData,
+  sevenDayData,
+} from "../data/itinerariesData";
+import CurrentItineraryContext from "../contexts/CurrentItineraryContext";
 
-const ItinerarayPage = ({ numberOfDays }) => {
-  const [activeButton, setActiveButton] = useState(1);
+const ItinerarayPage = () => {
+  const {
+    activeItinerary,
+    currentItineraryDay,
+    setCurrentItineraryDay,
+    numberOfDays,
+    setNumberOfDays,
+  } = useContext(CurrentItineraryContext);
+
   const handleActiveButton = (item) => {
-    setActiveButton(item);
+    setCurrentItineraryDay(item);
   };
+
   return (
     <div className="max-w-[1600px] m-auto border-b-2 px-2 py-10 sm:pb-14 sm:px-14">
       <h1 className="text-center text-2xl font-bold mb-10">
@@ -18,14 +32,27 @@ const ItinerarayPage = ({ numberOfDays }) => {
             <h1
               onClick={() => handleActiveButton(item)}
               className={
-                activeButton === item
+                currentItineraryDay === item
                   ? "text-center text-sm p-2 text-white bg-[#fc7070] border-2 rounded-xl cursor-pointer -translate-y-2 transition duration-500 ease-in-out"
                   : "text-center text-sm p-2 text-white bg-[#f79797] border-2 rounded-xl cursor-pointer"
               }
             >{`Day ${item}`}</h1>
           ))}
       </div>
-      <ItinerarySection favoriteSpots={favoriteSpots} day="Day 1" />
+
+      {activeItinerary === "oneDay" && <ItinerarySection data={oneDayData} />}
+
+      {activeItinerary === "threeDays" && (
+        <ItinerarySection data={threeDayData[currentItineraryDay - 1]} />
+      )}
+
+      {activeItinerary === "fiveDays" && (
+        <ItinerarySection data={fiveDayData[currentItineraryDay - 1]} />
+      )}
+
+      {activeItinerary === "sevenDays" && (
+        <ItinerarySection data={sevenDayData[currentItineraryDay - 1]} />
+      )}
     </div>
   );
 };
