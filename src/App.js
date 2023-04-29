@@ -25,6 +25,7 @@ import ItinerarayPage from "./pages/ItinerarayPage";
 import ItineraryLayout from "./layouts/ItineraryLayout";
 import Islamic from "./pages/go/Islamic";
 import Coptic from "./pages/go/Coptic";
+import Modern from "./pages/go/Modern";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -36,7 +37,7 @@ const router = createBrowserRouter(
         <Route path="Ancient" element={<Ancient />} />
         <Route path="Islamic" element={<Islamic />} />
         <Route path="Coptic" element={<Coptic />} />
-        <Route path="Modern" />
+        <Route path="Modern" element={<Modern />} />
       </Route>
 
       <Route path="what to eat" element={<EatLayout />}>

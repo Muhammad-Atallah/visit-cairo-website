@@ -74,7 +74,7 @@ const GoLayout = () => {
                   ? "py-1 border-b-2 sm:border-b-4 border-[#FFACAC] hover:border-[#FFACAC] transition duration-400 ease-in-out"
                   : "py-1 border-b-2 sm:border-b-4 border-white hover:border-[#FFACAC] transition duration-400 ease-in-out"
               }
-              to="Bars"
+              to="Modern"
             >
               Modern Cairo
             </NavLink>
