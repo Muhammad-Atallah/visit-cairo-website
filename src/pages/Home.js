@@ -3,7 +3,7 @@ import Main from "../components/Main";
 import { Discover } from "../components/Discover";
 import Itineraries from "../components/Itineraries";
 import { FoodSection } from "../components/FoodSection";
-import { Locals } from "../components/Locals";
+import Locals from "../components/Locals";
 import PageContext from "../contexts/PageContext";
 
 const Home = () => {

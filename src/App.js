@@ -23,26 +23,32 @@ import LocalPage from "./pages/LocalPage";
 import LocalPageLayout from "./layouts/LocalPageLayout";
 import ItinerarayPage from "./pages/ItinerarayPage";
 import ItineraryLayout from "./layouts/ItineraryLayout";
+import Islamic from "./pages/go/Islamic";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<RouteLayout />}>
       <Route index path="" element={<Home />} />
+
       <Route path="where to go" element={<GoLayout />}>
         <Route path="" element={<GoPageInFocus />} />
         <Route path="Ancient" element={<Ancient />} />
-        <Route path="Islamic" />
+        <Route path="Islamic" element={<Islamic />} />
         <Route path="Coptic" />
         <Route path="Modern" />
       </Route>
+
       <Route path="what to eat" element={<EatLayout />}>
         <Route index path="" element={<EatPageInFocus />} />
         <Route path="Restaurants" element={<Restaurants />} />
         <Route path="Cafes" element={<Cafes />} />
         <Route path="Bars" element={<Bars />} />
       </Route>
+
       <Route path="locals recommend" element={<LocalsRecommend />} />
+
       <Route path="local page" element={<LocalPageLayout />} />
+
       <Route path="ItineraryLayout" element={<ItineraryLayout />}>
         <Route path="ItinerarayPage" element={<ItinerarayPage />} />
       </Route>

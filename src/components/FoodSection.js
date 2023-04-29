@@ -100,10 +100,9 @@ export const FoodSection = () => {
             <h3 className="text-xs sm:text:sm mb-2">CAIRO'S FOOD GUIDE</h3>
             <h1 className="mb-4 text-sm">Find Cairo's most sustainable food</h1>
             <p className="text-xs mb-4">
-              Experts and Cairo representatives who are passionate about food
-              and sustainability guide you to their hidden gems. Find their best
-              tips from the city’s range of good food and join in on a delicious
-              journey!
+              Egyptian cuisine is a feast for the senses, with flavorful dishes
+              like koshari, ful medames, and shawarma. Street food and tea
+              culture are also an integral part of the culinary experience.
             </p>
             <Button buttonText="More" />
           </div>
@@ -117,11 +116,12 @@ export const FoodSection = () => {
               A Diversity in Great Cuisine
             </h1>
             <p className="text-xs sm:text-sm text-justify px-2 sm:px-0">
-              Egyptian cuisine might be best known for its meatballs and pickled
-              herring, but in recent years Cairo has made huge gastronomic
-              leaps. Here you'll find award-winning chefs and restaurants
-              serving fresh local ingredients and leading the way in food
-              sustainability.
+              Egyptian cuisine is as diverse as its history and culture, with
+              flavors and ingredients that have been shaped by trade and
+              cultural exchange for centuries. The food scene in Egypt is a
+              melting pot of Mediterranean, Middle Eastern, and African
+              influences, resulting in a delicious array of dishes that reflect
+              the country's rich culinary heritage.
             </p>
           </div>
           <Slider sliderData={data} />

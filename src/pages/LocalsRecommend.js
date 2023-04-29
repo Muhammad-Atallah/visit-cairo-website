@@ -1,8 +1,9 @@
 import React from "react";
-import { Locals } from "../components/Locals";
+import Locals from "../components/Locals";
 import EatLikeALocal from "../components/Locals Recommend/EatLikeALocal";
 import FeaturedArticle from "../components/FeaturedArticle";
 import MyTopFive from "../components/Locals Recommend/MyTopFive";
+import { localsData } from "../data/localsData";
 
 const LocalsRecommend = () => {
   const featuedFoodArticles = [

@@ -3,7 +3,7 @@ import { SlArrowRight, SlArrowLeft } from "react-icons/sl";
 import Slider from "./Slider";
 import { localsData } from "../data/localsData";
 
-export const Locals = () => {
+const Locals = () => {
   const [position, setPosition] = useState(0);
 
   const myStyle = {
@@ -34,12 +34,16 @@ export const Locals = () => {
             Hi, want to get to know the locals?
           </h1>
           <p className="text-xs sm:text-sm text-justify px-2 sm:px-0">
-            Find your way off the beaten path with personal guides and tips from
-            the people living here.
+            Egyptians are known for their warm hospitality and friendly nature.
+            With a deep pride in their cultural heritage, locals are eager to
+            share their traditions, stories, and cuisine with visitors from
+            around the world!
           </p>
         </div>
-        <Slider sliderData={localsData} path="local page" />
+        <Slider sliderData={localsData} path="/local page" />
       </div>
     </div>
   );
 };
+
+export default Locals;

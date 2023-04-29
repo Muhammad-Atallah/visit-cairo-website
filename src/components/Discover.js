@@ -6,28 +6,28 @@ export const Discover = () => {
     {
       image: require("../images/Discover/sultan-hassan.jpg"),
       heading: "Islamic Cairo",
-      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nobis dolorem suscipit illo totam iste dolorum, possimus numquam sapiente eos.",
+      text: "Explore the heart of Islamic Cairo, home to ancient mosques, madrasas, and bazaars, and immerse yourself in the city's Islamic heritage.",
       link: "where to go/Islamic",
       page: "Islamic",
     },
     {
       image: require("../images/Discover/hanging_church1.jpg"),
       heading: "Coptic Cairo",
-      text: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Praesentium explicabo ab quaerat, exercitationem omnis sapiente.",
+      text: "Discover the Coptic Christian heritage of Cairo, where ancient churches, monasteries, and relics offer a glimpse into the city's religious history.",
       link: "where to go/Coptic",
       page: "Coptic",
     },
     {
       image: require("../images/Discover/pyramids.jpg"),
       heading: "Pharaonic Cairo",
-      text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil at officiis omnis, ab perspiciatis voluptatibus illo, impedit nam voluptatem accusantium sapiente. Recusandae tempore voluptatem assumenda.",
+      text: "Experience the wonder of ancient Cairo, home to the Great Pyramids, Sphinx, and the Egyptian Museum. A journey through time awaits.",
       link: "where to go/ancient",
       page: "Ancient",
     },
     {
       image: require("../images/Discover/modern-cairo.jpg"),
       heading: "Modern Cairo",
-      text: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorum officia numquam animi laborum quidem, labore sunt nulla asperiores!",
+      text: "Discover the modern side of Cairo, a bustling metropolis of skyscrapers, shopping malls, and vibrant nightlife. A city that never sleeps.",
       link: "where to go/Modern",
       page: "Modern",
     },
@@ -42,11 +42,10 @@ export const Discover = () => {
           </h1>
           <div>
             <p className="text-xs sm:text-sm text-justify px-2 sm:px-0">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit,
-              quasi sint quibusdam veniam officia ea eligendi quidem a mollitia
-              laboriosam obcaecati? Hic incidunt adipisci in? Excepturi, autem
-              ullam. Odio quidem ullam tempora! Culpa, sapiente placeat
-              repellendus exercitationem harum velit quidem.
+              Come experience the magic of Cairo for yourself and discover why
+              it has captured the hearts of travelers for centuries. Whether
+              you're here for a short visit or a longer stay, Cairo is a
+              destination that will leave an indelible mark on your soul.
             </p>
           </div>
         </div>

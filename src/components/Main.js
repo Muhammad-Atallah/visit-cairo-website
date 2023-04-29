@@ -43,9 +43,10 @@ const Main = () => {
               Welcome to Cairo
             </h1>
             <p className="mr-6 sm:px-0 sm:pr-24 text-xs sm:text-sm text-justify">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-              Distinctio ipsam animi ducimus veritatis corporis, quasi qui
-              repellendus repellat atque non asperiores eum.
+              A city steeped in rich history, culture, and tradition. Located on
+              the banks of the Nile River, Cairo is a vibrant metropolis that
+              offers visitors a unique blend of ancient wonders and modern
+              marvels.
             </p>
           </div>
           {videoState ? (
