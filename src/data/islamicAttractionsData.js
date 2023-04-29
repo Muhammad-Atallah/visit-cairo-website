@@ -1,5 +1,5 @@
 export const islamicAttractionsData = {
-  mainHeader: "Discover Egypt's Ancient World in Cairo",
+  mainHeader: "Explore the Magnificence of Islamic Cairo",
   mainParagraph:
     "Islamic Cairo is a testament to the rich and diverse history of Egypt, with its architecture and landmarks telling the story of the Islamic civilization that flourished here. The district is filled with ancient mosques, palaces, and fortifications, each with their own unique stories and significance. Visitors can explore the centuries-old architecture, intricate mosaics, and beautiful calligraphy that adorn the walls of these historic landmarks. Discover the history and culture of Islamic Cairo and gain a deeper appreciation for the rich tapestry of Egyptian civilization.",
   data: [

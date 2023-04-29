@@ -24,6 +24,7 @@ import LocalPageLayout from "./layouts/LocalPageLayout";
 import ItinerarayPage from "./pages/ItinerarayPage";
 import ItineraryLayout from "./layouts/ItineraryLayout";
 import Islamic from "./pages/go/Islamic";
+import Coptic from "./pages/go/Coptic";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -34,7 +35,7 @@ const router = createBrowserRouter(
         <Route path="" element={<GoPageInFocus />} />
         <Route path="Ancient" element={<Ancient />} />
         <Route path="Islamic" element={<Islamic />} />
-        <Route path="Coptic" />
+        <Route path="Coptic" element={<Coptic />} />
         <Route path="Modern" />
       </Route>
 
