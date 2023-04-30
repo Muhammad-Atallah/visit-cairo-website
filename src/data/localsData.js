@@ -69,6 +69,82 @@ export const localsData = [
     ],
   },
   {
+    image: require("../images/Locals/10.jpg"),
+    title: "Magdi Gamal",
+    classification: "local in cairo",
+    quote:
+      "I love seeing the city through the eyes of my children. It's a chaotic and vibrant city, but it's home",
+    about:
+      "Magdi is a family man who loves spending time with his wife and kids. He is also an ambitious businessman who is always looking for new opportunities. He values hard work and dedication and believes that anything is possible with the right mindset. As a father, Magdi loves taking his children to fun and educational places around Cairo. He also enjoys exploring new restaurants and trying out different types of cuisine with his family. Despite his busy schedule, he always makes time for his loved ones and cherishes the moments they spend together.",
+    guides: [
+      {
+        image: require("../images/Local Page/Andrew Atef/1.jpg"),
+        title: "Exploring Cairo with Kids: My Favorite Family-Friendly Spots",
+        classification: "Activities",
+      },
+      {
+        image: require("../images/Local Page/Andrew Atef/2.jpg"),
+        title: "Exploring Cairo's Lesser-Known Attractions",
+        classification: "Attractions",
+      },
+      {
+        image: require("../images/Local Page/Andrew Atef/3.jpg"),
+        title: "A Guide to the Best Hammams and Spas in Cairo",
+        classification: "Activities",
+      },
+    ],
+    favoriteSpots: [
+      {
+        image: require("../images/Local Page/Amira Fathi/spots/1.jpg"),
+        title: "Dream Park",
+        classification: "Museums",
+        link: "https://goo.gl/maps/F9aj9RfRjcHfhfbDA",
+        description:
+          "A fun-filled amusement park with a variety of rides and attractions suitable for all ages. It's the perfect place for a family day out, and the kids will love it!",
+      },
+      {
+        image: require("../images/Local Page/Amira Fathi/spots/2.jpg"),
+        title: "Wadi El-Rayan",
+        classification: "Museums",
+        link: "https://goo.gl/maps/vzupZ3qj1EYDC1Gm8",
+        description:
+          "A stunning natural reserve located about 100 km southwest of Cairo. Magdi loves to take his family here to enjoy the beautiful scenery, swim in the crystal-clear lakes, and have a picnic in the great outdoors.",
+      },
+      {
+        image: require("../images/Local Page/Amira Fathi/spots/3.jpg"),
+        title: "Baron Palace",
+        classification: "Activities",
+        link: "https://goo.gl/maps/4n8f4gbUcB6KsYdS7",
+        description:
+          "A beautiful and historic mansion located in the Heliopolis neighborhood of Cairo. Magdi loves to come here with his family and explore the grand halls and beautiful gardens.",
+      },
+      {
+        image: require("../images/Local Page/Amira Fathi/spots/3.jpg"),
+        title: "Abou Shakra",
+        classification: "Activities",
+        link: "https://goo.gl/maps/4n8f4gbUcB6KsYdS7",
+        description:
+          "This restaurant is another family favorite. The food is consistently delicious, and the menu offers a great selection of traditional Egyptian dishes. Plus, the restaurant has a cozy atmosphere that makes it a great spot for families to gather and enjoy a meal together.",
+      },
+      {
+        image: require("../images/Local Page/Amira Fathi/spots/3.jpg"),
+        title: "Cairo Opera House",
+        classification: "Restaurants",
+        link: "https://goo.gl/maps/4n8f4gbUcB6KsYdS7",
+        description:
+          "As a lover of music, I can't recommend the Cairo Opera House enough. They offer a wide range of performances, from classical to contemporary, and the building itself is a stunning work of architecture.",
+      },
+      {
+        image: require("../images/Local Page/Amira Fathi/spots/3.jpg"),
+        title: "El Tabei El Domyati",
+        classification: "Restaurants",
+        link: "https://goo.gl/maps/4n8f4gbUcB6KsYdS7",
+        description:
+          "A favorite among locals, this restaurant serves up delicious Egyptian home-style cooking. Their molokhia and stuffed vine leaves are particularly noteworthy.",
+      },
+    ],
+  },
+  {
     image: require("../images/Locals/2.jpg"),
     title: "Hana Moustafa",
     classification: "local in cairo",
@@ -190,64 +266,53 @@ export const localsData = [
     image: require("../images/Locals/4.jpg"),
     title: "Diala Hazem",
     classification: "local in cairo",
-    quote: "'My bike is my enabler. It takes me everywhere I need to go'",
-    about:
-      "Sofia Barré works as a communications officer at Svenskt Vatten. She spent her childhood in the inner-archipelago – Björnkärret in Gustavsberg to be precise – but has since worked her way closer to the city. Today she lives in the southern Stockholm suburb of Älta. Sofia describes herself as a city hiker and loves the contrasts between nature and urban areas in Stockholm. You can experience a shift from nature to city in just a short bike ride, but often get both at the same time. Besides the family, her biggest love is her e-bike. It's my enabler. It takes me everywhere I need to go",
-    guides: [{ image: "", title: "", classification: "" }],
-    favoriteSpots: [
-      { image: "", title: "", classification: "", link: "", description: "" },
-    ],
-  },
-  {
-    image: require("../images/Locals/5.jpg"),
-    title: "Nihal Roshdy",
-    classification: "local in cairo",
     quote:
-      "'Stockholm isn't just a place to live well, it's a place to make a good life'",
+      "'Cairo is my home, my heart and my inspiration. There's never a dull moment here.'",
     about:
-      "Ben moved to Stockholm in 2011 after falling in love with the city while Interrailing as a student. Settling in Akalla at the very edge of the city, Ben has the best of both worlds. Stockholm is small enough that public transport gets him to the heart of Sweden's capital in less than thirty minutes, but out here nature is on his doorstep, with hares and deer roaming freely. I remember those first years living here, Ben recalls, 'when I would spend my weekends maximizing my public transport pass to explore parts of the city I hadn't yet seen. There is something different to love about Stockholm in every direction.'",
-    guides: [{ image: "", title: "", classification: "" }],
-    favoriteSpots: [
-      { image: "", title: "", classification: "", link: "", description: "" },
+      "Diala Hazem, a 32-year-old blogger, has a deep love for Cairo. She enjoys the constant discovery of new aspects of the city, which provides endless inspiration for her writing. The diversity and chaos of Cairo captivate her, and she enjoys being in the heart of the city, where she can observe and experience everything it has to offer. Despite the challenges of living in a bustling city, Diala wouldn't want to be anywhere else. She embraces the energy of Cairo and finds beauty in its imperfections.",
+    guides: [
+      {
+        image: require("../images/Local Page/Andrew Atef/1.jpg"),
+        title: "Living Like a Local: How to Embrace Cairo's Chaotic Charm",
+        classification: "Activities",
+      },
+      {
+        image: require("../images/Local Page/Andrew Atef/2.jpg"),
+        title: "From Bazaars to Boutiques: A Shopaholic's Guide to Cairo",
+        classification: "Activities",
+      },
+      {
+        image: require("../images/Local Page/Andrew Atef/3.jpg"),
+        title:
+          "Exploring Cairo on a Budget: Tips and Tricks from a Thrifty Traveler",
+        classification: "Activities",
+      },
     ],
-  },
-  {
-    image: require("../images/Locals/6.jpg"),
-    title: "Hana Nabil",
-    classification: "local in cairo",
-    quote:
-      "'Stockholm isn't just a place to live well, it's a place to make a good life'",
-    about:
-      "Ben moved to Stockholm in 2011 after falling in love with the city while Interrailing as a student. Settling in Akalla at the very edge of the city, Ben has the best of both worlds. Stockholm is small enough that public transport gets him to the heart of Sweden's capital in less than thirty minutes, but out here nature is on his doorstep, with hares and deer roaming freely. I remember those first years living here, Ben recalls, 'when I would spend my weekends maximizing my public transport pass to explore parts of the city I hadn't yet seen. There is something different to love about Stockholm in every direction.'",
-    guides: [{ image: "", title: "", classification: "" }],
     favoriteSpots: [
-      { image: "", title: "", classification: "", link: "", description: "" },
-    ],
-  },
-  {
-    image: require("../images/Locals/7.jpg"),
-    title: "Adam Attia",
-    classification: "local",
-    quote:
-      "'Stockholm isn't just a place to live well, it's a place to make a good life'",
-    about:
-      "Ben moved to Stockholm in 2011 after falling in love with the city while Interrailing as a student. Settling in Akalla at the very edge of the city, Ben has the best of both worlds. Stockholm is small enough that public transport gets him to the heart of Sweden's capital in less than thirty minutes, but out here nature is on his doorstep, with hares and deer roaming freely. I remember those first years living here, Ben recalls, 'when I would spend my weekends maximizing my public transport pass to explore parts of the city I hadn't yet seen. There is something different to love about Stockholm in every direction.'",
-    guides: [{ image: "", title: "", classification: "" }],
-    favoriteSpots: [
-      { image: "", title: "", classification: "", link: "", description: "" },
-    ],
-  },
-  {
-    image: require("../images/Locals/8.jpg"),
-    title: "Shadi Mohsen",
-    classification: "local in cairo",
-    quote:
-      "'Stockholm isn't just a place to live well, it's a place to make a good life'",
-    about:
-      "Ben moved to Stockholm in 2011 after falling in love with the city while Interrailing as a student. Settling in Akalla at the very edge of the city, Ben has the best of both worlds. Stockholm is small enough that public transport gets him to the heart of Sweden's capital in less than thirty minutes, but out here nature is on his doorstep, with hares and deer roaming freely. I remember those first years living here, Ben recalls, 'when I would spend my weekends maximizing my public transport pass to explore parts of the city I hadn't yet seen. There is something different to love about Stockholm in every direction.'",
-    guides: [{ image: "", title: "", classification: "" }],
-    favoriteSpots: [
-      { image: "", title: "", classification: "", link: "", description: "" },
+      {
+        image: require("../images/Local Page/Amira Fathi/spots/1.jpg"),
+        title: "Downtown Cairo",
+        classification: "Attraction",
+        link: "https://goo.gl/maps/F9aj9RfRjcHfhfbDA",
+        description:
+          "Downtown Cairo is one of my favorite spots in the city. It's a bustling hub of activity, filled with shops, cafes, and restaurants. I love wandering through the winding streets and discovering new places to explore. The architecture is beautiful, with many historic buildings and landmarks, and the atmosphere is lively and vibrant. It's a must-visit for anyone coming to Cairo!",
+      },
+      {
+        image: require("../images/Local Page/Amira Fathi/spots/2.jpg"),
+        title: "Wekalet el Ghouri Arts Center",
+        classification: "Activities",
+        link: "https://goo.gl/maps/vzupZ3qj1EYDC1Gm8",
+        description:
+          "Wekalet el Ghouri Arts Center is a true gem in the heart of Cairo. The beautiful courtyard and the stunning architecture of the building create a peaceful and inspiring atmosphere. I love attending performances of traditional music and dance here, as well as the regular exhibitions and cultural events. It's a wonderful place to experience the rich heritage of Egyptian art and culture, and a must-visit for anyone interested in the arts.",
+      },
+      {
+        image: require("../images/Local Page/Amira Fathi/spots/3.jpg"),
+        title: "Fasahet Somaya",
+        classification: "Restaurant",
+        link: "https://goo.gl/maps/4n8f4gbUcB6KsYdS7",
+        description:
+          "Fasahet Somaya is one of my favorite restaurants in Cairo, and a must-visit for anyone looking for authentic Egyptian cuisine. The atmosphere is casual and welcoming, with friendly staff and a cozy interior. I love the koshari, a delicious mix of lentils, rice, and pasta, as well as the molokhia, a traditional stew made with leafy greens and chicken. The prices are affordable, making it a great option for a tasty and budget-friendly meal. It's definitely one of the best places in Cairo to experience the flavors of Egyptian cuisine.",
+      },
     ],
   },
   {
@@ -255,25 +320,314 @@ export const localsData = [
     title: "Gaber Zayed",
     classification: "local in cairo",
     quote:
-      "'Stockholm isn't just a place to live well, it's a place to make a good life'",
+      "History is not just about the past, it's about understanding who we are and where we come from.",
     about:
-      "Ben moved to Stockholm in 2011 after falling in love with the city while Interrailing as a student. Settling in Akalla at the very edge of the city, Ben has the best of both worlds. Stockholm is small enough that public transport gets him to the heart of Sweden's capital in less than thirty minutes, but out here nature is on his doorstep, with hares and deer roaming freely. I remember those first years living here, Ben recalls, 'when I would spend my weekends maximizing my public transport pass to explore parts of the city I hadn't yet seen. There is something different to love about Stockholm in every direction.'",
-    guides: [{ image: "", title: "", classification: "" }],
+      "Gaber is a curious and passionate individual who loves learning about the history and culture of Egypt. He spends most of his free time reading books about ancient Egypt, visiting museums, and exploring historical sites. He is also an avid photographer and loves to capture the beauty of his surroundings. Gaber's goal is to become a history professor and share his knowledge and passion for the subject with others.",
+    guides: [
+      {
+        image: require("../images/Local Page/Andrew Atef/1.jpg"),
+        title: "Exploring Cairo's Hidden Gems: A History Student's Guide",
+        classification: "Activities",
+      },
+      {
+        image: require("../images/Local Page/Andrew Atef/2.jpg"),
+        title: "From Pharaohs to Kings: A Historical Walking Tour of Cairo",
+        classification: "Activities",
+      },
+      {
+        image: require("../images/Local Page/Andrew Atef/3.jpg"),
+        title: "A Guide to the Pyramids and Sphinx",
+        classification: "Attractions",
+      },
+    ],
     favoriteSpots: [
-      { image: "", title: "", classification: "", link: "", description: "" },
+      {
+        image: require("../images/Local Page/Amira Fathi/spots/1.jpg"),
+        title: "The Egyptian Museum",
+        classification: "Museums",
+        link: "https://goo.gl/maps/F9aj9RfRjcHfhfbDA",
+        description:
+          "As a history student, I always recommend visiting the Egyptian Museum to anyone interested in learning about ancient Egypt. The museum houses an impressive collection of artifacts from different periods of Egyptian history, including the famous treasures of Tutankhamun.",
+      },
+      {
+        image: require("../images/Local Page/Amira Fathi/spots/2.jpg"),
+        title: "Egyptian Textile Museum",
+        classification: "Museums",
+        link: "https://goo.gl/maps/vzupZ3qj1EYDC1Gm8",
+        description:
+          "This museum showcases the rich history and cultural significance of textiles in Egypt. I find it fascinating to learn about the different fabrics, designs, and techniques that have been used for centuries.",
+      },
+      {
+        image: require("../images/Local Page/Amira Fathi/spots/3.jpg"),
+        title: "Darb 1718",
+        classification: "Activities",
+        link: "https://goo.gl/maps/4n8f4gbUcB6KsYdS7",
+        description:
+          "This art and culture center is a great place to experience contemporary Egyptian art and music. They host regular exhibitions, performances, and workshops that showcase the creativity and talent of local artists.",
+      },
+      {
+        image: require("../images/Local Page/Amira Fathi/spots/3.jpg"),
+        title: "Cairo Opera House",
+        classification: "Restaurants",
+        link: "https://goo.gl/maps/4n8f4gbUcB6KsYdS7",
+        description:
+          "As a lover of music, I can't recommend the Cairo Opera House enough. They offer a wide range of performances, from classical to contemporary, and the building itself is a stunning work of architecture.",
+      },
+      {
+        image: require("../images/Local Page/Amira Fathi/spots/3.jpg"),
+        title: "Citadel of Saladin",
+        classification: "Restaurants",
+        link: "https://goo.gl/maps/4n8f4gbUcB6KsYdS7",
+        description:
+          "This historic fortress offers some of the best views of Cairo, and it's also a fascinating place to explore. From the impressive architecture to the interesting museums and exhibits, there's a lot to see here.",
+      },
     ],
   },
   {
-    image: require("../images/Locals/10.jpg"),
-    title: "Magdi Gamal",
+    image: require("../images/Locals/5.jpg"),
+    title: "Nihal Roshdy",
+    classification: "local in cairo",
+    quote: "'In Cairo, I find beauty in the mundane and magic in the chaos.'",
+    about:
+      "'For me, Cairo is a never-ending source of inspiration. As a photographer, I love capturing the unique character of the city and its people. From the bustling streets of Downtown to the tranquil alleys of Old Cairo, there's always something new to discover and explore. I enjoy the challenge of finding beauty in unexpected places and creating images that capture the essence of this vibrant and dynamic city. Cairo may be chaotic and sometimes overwhelming, but it's also full of life and energy, and I wouldn't want to be anywhere else.'",
+    guides: [
+      {
+        image: require("../images/Local Page/Andrew Atef/1.jpg"),
+        title:
+          "How to Experience Cairo Like a Local and Avoid the Tourist Traps",
+        classification: "Activities",
+      },
+      {
+        image: require("../images/Local Page/Andrew Atef/2.jpg"),
+        title:
+          "Discovering Cairo's Hidden Gems Through the Lens of a Local Photographer",
+        classification: "Activities",
+      },
+      {
+        image: require("../images/Local Page/Andrew Atef/3.jpg"),
+        title:
+          "Finding Beauty in the Chaos: A Local's Guide to Capturing the Essence of Cairo's Daily Life",
+        classification: "Activities",
+      },
+    ],
+    favoriteSpots: [
+      {
+        image: require("../images/Local Page/Amira Fathi/spots/1.jpg"),
+        title: "Zooba in Zamalek",
+        classification: "Restaurant",
+        link: "https://goo.gl/maps/F9aj9RfRjcHfhfbDA",
+        description:
+          "Zooba is one of my favorite restaurants in Cairo because of its focus on fresh and locally-sourced ingredients, and its modern take on traditional Egyptian dishes. I love their creative twists on falafel.",
+      },
+      {
+        image: require("../images/Local Page/Amira Fathi/spots/2.jpg"),
+        title: "Azza Fahmy Cafe in Downtown",
+        classification: "Cafes",
+        link: "https://goo.gl/maps/vzupZ3qj1EYDC1Gm8",
+        description:
+          "This charming cafe is located on the rooftop of the Azza Fahmy jewelry store and offers stunning views of Cairo's skyline. I love the eclectic decor, delicious food and drinks, and the fact that it's a hidden gem tucked away in the heart of the city.",
+      },
+      {
+        image: require("../images/Local Page/Amira Fathi/spots/3.jpg"),
+        title: "Naguib Mahfouz Cafe in Khan El Khalili",
+        classification: "Restaurant",
+        link: "https://goo.gl/maps/4n8f4gbUcB6KsYdS7",
+        description:
+          "I love the cozy atmosphere of this cafe, with its colorful decor and traditional Egyptian furnishings. It's the perfect place to relax with a cup of mint tea and people-watch in the heart of Cairo's historic bazaar.",
+      },
+    ],
+  },
+  {
+    image: require("../images/Locals/6.jpg"),
+    title: "Hana Nabil",
     classification: "local in cairo",
     quote:
-      "'Stockholm isn't just a place to live well, it's a place to make a good life'",
+      "'Cairo is a city full of surprises, there's always something new to discover and it never gets old.'",
     about:
-      "Ben moved to Stockholm in 2011 after falling in love with the city while Interrailing as a student. Settling in Akalla at the very edge of the city, Ben has the best of both worlds. Stockholm is small enough that public transport gets him to the heart of Sweden's capital in less than thirty minutes, but out here nature is on his doorstep, with hares and deer roaming freely. I remember those first years living here, Ben recalls, 'when I would spend my weekends maximizing my public transport pass to explore parts of the city I hadn't yet seen. There is something different to love about Stockholm in every direction.'",
-    guides: [{ image: "", title: "", classification: "" }],
+      "Hana Nabil is a teacher who moved to Cairo a couple of years ago. She has grown to love the city and its people, and is constantly amazed by its energy and vibrancy. When she's not working, Hana enjoys exploring the city's hidden gems and finding peaceful spots to recharge. Cairo has a rich culinary scene, and as a foodie, Hana loves trying new dishes and discovering the flavors of Egyptian and Middle Eastern cuisines. Whether she's sipping on tea in a traditional ahwa or indulging in a decadent konafa, Cairo never fails to surprise and delight her.",
+    guides: [
+      {
+        image: require("../images/Local Page/Andrew Atef/1.jpg"),
+        title: "Hana's Hidden Gems: The Best Calm and Peaceful Spaces in Cairo",
+        classification: "Activities",
+      },
+      {
+        image: require("../images/Local Page/Andrew Atef/2.jpg"),
+        title:
+          "Cairo's Culinary Delights: A Foodie's Guide to the Best Egyptian and Middle Eastern Cuisine",
+        classification: "Restaurants",
+      },
+      {
+        image: require("../images/Local Page/Andrew Atef/3.jpg"),
+        title:
+          "Teacher's Guide to Cairo: Discovering the City's History, Culture, and Education Scene",
+        classification: "Culture",
+      },
+    ],
     favoriteSpots: [
-      { image: "", title: "", classification: "", link: "", description: "" },
+      {
+        image: require("../images/Local Page/Amira Fathi/spots/1.jpg"),
+        title: "Bab El-Sharq",
+        classification: "Restaurant",
+        link: "https://goo.gl/maps/F9aj9RfRjcHfhfbDA",
+        description:
+          "This restaurant is located in the heart of Zamalek and offers a unique dining experience with delicious Egyptian cuisine. The cozy atmosphere and warm hospitality of the staff make it one of my favorite spot. I love to come here to enjoy the traditional Egyptian dishes and to spend a relaxing evening with friends.",
+      },
+      {
+        image: require("../images/Local Page/Amira Fathi/spots/2.jpg"),
+        title: "Qahwa",
+        classification: "Cafes",
+        link: "https://goo.gl/maps/vzupZ3qj1EYDC1Gm8",
+        description:
+          "This is my favorite cafe in Cairo, located in the Zamalek neighborhood. The atmosphere is cozy and intimate, and the coffee is delicious. I often come here to grade papers or read a book, and sometimes I'll even bring my laptop and get some work done.",
+      },
+      {
+        image: require("../images/Local Page/Amira Fathi/spots/3.jpg"),
+        title: "Beit El-Suhaymi",
+        classification: "Restaurant",
+        link: "https://goo.gl/maps/4n8f4gbUcB6KsYdS7",
+        description:
+          "This historic house in Old Cairo is one of my favorite cultural spots in the city. The architecture and decor are so intricate and beautiful, and it's fascinating to learn about the history of the house and the people who lived there. I always feel a sense of peace and tranquility when I visit.",
+      },
+      {
+        image: require("../images/Local Page/Amira Fathi/spots/3.jpg"),
+        title: "Sequoia",
+        classification: "Restaurant",
+        link: "https://goo.gl/maps/4n8f4gbUcB6KsYdS7",
+        description:
+          "This restaurant is one of my favorite spots in Cairo. Located in the Zamalek district, it overlooks the Nile and has a beautiful outdoor terrace with a relaxed and cozy atmosphere. The menu is a mix of Egyptian and international cuisine, and everything I've tried there has been delicious. I especially love their salads and seafood dishes. It's a great spot to enjoy a meal with friends or to work from during the day.",
+      },
+      {
+        image: require("../images/Local Page/Amira Fathi/spots/3.jpg"),
+        title: "Kazouza",
+        classification: "Restaurant",
+        link: "https://goo.gl/maps/4n8f4gbUcB6KsYdS7",
+        description:
+          "I love this restaurant. It's located in the Maadi neighborhood, which is a bit further from the city center but has a great community feel. The restaurant has a cozy atmosphere with dim lighting, rustic decor, and a lovely outdoor seating area. The menu features a mix of traditional Egyptian dishes and modern fusion cuisine, and everything is absolutely delicious. I highly recommend trying their mezze platter, which comes with a variety of dips, salads, and grilled items. The staff is always friendly and welcoming, and it's a great place to go for a relaxing evening with friends or family.",
+      },
+    ],
+  },
+  {
+    image: require("../images/Locals/7.jpg"),
+    title: "Adam Attia",
+    classification: "local",
+    quote:
+      "'I love the energy and creativity of this city, and I feel alive every time I step out of my door.'",
+    about:
+      "Adam moved to Cairo from a small town in Upper Egypt to attend university. He fell in love with the city's bustling streets, vibrant nightlife, and rich cultural heritage. In his free time, he explores the city with his friends, playing music at local cafes and bars. Adam is a curious and adventurous spirit who is always looking for new experiences and opportunities to learn and grow.",
+    guides: [
+      {
+        image: require("../images/Local Page/Andrew Atef/1.jpg"),
+        title:
+          "Cairo on a Budget: How to Experience the City Without Breaking the Bank",
+        classification: "Activities",
+      },
+      {
+        image: require("../images/Local Page/Andrew Atef/2.jpg"),
+        title:
+          "Living Like a Cairene: My Favorite Neighborhoods and Hangouts in the City",
+        classification: "Restaurants",
+      },
+      {
+        image: require("../images/Local Page/Andrew Atef/3.jpg"),
+        title:
+          "My Favorite Hidden Gems in Cairo: Discovering the City's Best Kept Secrets",
+        classification: "Culture",
+      },
+    ],
+    favoriteSpots: [
+      {
+        image: require("../images/Local Page/Amira Fathi/spots/1.jpg"),
+        title: "Fuego",
+        classification: "Restaurant",
+        link: "https://goo.gl/maps/F9aj9RfRjcHfhfbDA",
+        description:
+          "This Latin-Asian fusion restaurant has a great vibe and even better food. The sushi rolls are always fresh and creative, and the ceviche is a must-try. Plus, they have a great cocktail menu if you're in the mood for a drink.",
+      },
+      {
+        image: require("../images/Local Page/Amira Fathi/spots/2.jpg"),
+        title: "The Cairo Jazz Club",
+        classification: "Cafes",
+        link: "https://goo.gl/maps/vzupZ3qj1EYDC1Gm8",
+        description:
+          "This is one of the best places in Cairo for live music and a good time. They have a great lineup of local and international bands, and the atmosphere is always lively. The drinks are reasonably priced, and the crowd is always friendly. If you're in the mood for a night out, this is the place to be.",
+      },
+      {
+        image: require("../images/Local Page/Amira Fathi/spots/3.jpg"),
+        title: "El Abd Patisserie",
+        classification: "Restaurant",
+        link: "https://goo.gl/maps/4n8f4gbUcB6KsYdS7",
+        description:
+          "It's my go-to spot for delicious and authentic Egyptian pastries. The atmosphere is cozy and welcoming, with the sweet aroma of freshly baked goods wafting through the air. Their konafa is simply the best I've ever had, and I can't resist indulging in their buttery mamoul cookies. It's definitely a must-visit spot for anyone with a sweet tooth in Cairo.",
+      },
+    ],
+  },
+  {
+    image: require("../images/Locals/8.jpg"),
+    title: "Shadi Mohsen",
+    classification: "local in cairo",
+    quote:
+      "Life is a never-ending journey of learning, and Cairo is a city that teaches you something new every day.",
+    about:
+      "Shadi Mohsen is a 45-year-old local living in Cairo who owns a small business in the city. He has a passion for history and culture, and loves exploring ancient Egyptian sites and museums in his free time. He is also an avid reader and enjoys spending time in quiet spaces like cafes or parks to read and relax. In his spare time, he likes to practice calligraphy and is interested in Arabic literature.",
+    guides: [
+      {
+        image: require("../images/Local Page/Andrew Atef/1.jpg"),
+        title: "Exploring the Authentic Sights and Sounds of Old Cairo",
+        classification: "Activities",
+      },
+      {
+        image: require("../images/Local Page/Andrew Atef/2.jpg"),
+        title: "Embracing the Chaotic Beauty of Cairo's Bustling Souks",
+        classification: "Restaurants",
+      },
+      {
+        image: require("../images/Local Page/Andrew Atef/3.jpg"),
+        title: "Indulging in the Rich and Savory Flavors of Egyptian Cuisine",
+        classification: "Culture",
+      },
+    ],
+    favoriteSpots: [
+      {
+        image: require("../images/Local Page/Amira Fathi/spots/1.jpg"),
+        title: "Al Horreya Garden",
+        classification: "Activities",
+        link: "https://goo.gl/maps/F9aj9RfRjcHfhfbDA",
+        description:
+          "Sometimes you just need to escape the chaos of Cairo, and Al Horreya Garden is the perfect place to do that. It's a peaceful oasis in the middle of the city, with lots of greenery and a beautiful lake. I like to come here with a book and spend a lazy afternoon.",
+      },
+      {
+        image: require("../images/Local Page/Amira Fathi/spots/2.jpg"),
+        title: "Khan el-Khalili",
+        classification: "Cafes",
+        link: "https://goo.gl/maps/vzupZ3qj1EYDC1Gm8",
+        description:
+          "This historic souk is one of my favorite spots in Cairo. It's a bustling marketplace where you can find everything from spices to jewelry to souvenirs. I love wandering through the narrow alleys and haggling with the vendors.",
+      },
+      {
+        image: require("../images/Local Page/Amira Fathi/spots/3.jpg"),
+        title: "Umm Kalthoum Museum",
+        classification: "Museums",
+        link: "https://goo.gl/maps/4n8f4gbUcB6KsYdS7",
+        description:
+          "Umm Kalthoum is one of Egypt's most beloved singers, and this museum is a tribute to her life and career. Located in Zamalek, the museum features exhibits of her personal belongings, recordings, and other memorabilia. It's a must-visit for anyone interested in Egyptian music and culture.",
+      },
+      {
+        image: require("../images/Local Page/Amira Fathi/spots/3.jpg"),
+        title: "Fish Market",
+        classification: "Restaurants",
+        link: "https://goo.gl/maps/4n8f4gbUcB6KsYdS7",
+        description:
+          "As a seafood lover, I can't recommend this place enough. Located in the suburb of Maadi, it's a bustling market filled with vendors selling fresh fish, shrimp, and other seafood. You can buy the ingredients and take them to a nearby restaurant to have them cooked to your liking.",
+      },
+      {
+        image: require("../images/Local Page/Amira Fathi/spots/3.jpg"),
+        title: "Qahwet El Kalaa",
+        classification: "Restaurants",
+        link: "https://goo.gl/maps/4n8f4gbUcB6KsYdS7",
+        description:
+          "This coffee shop is a hidden gem in Old Cairo. The atmosphere is cozy and relaxed, and the coffee is some of the best I've tasted in the city. I come here often to read a book or catch up with friends.",
+      },
     ],
   },
 ];
