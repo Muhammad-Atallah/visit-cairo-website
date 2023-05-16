@@ -4,9 +4,15 @@ import { AiOutlineArrowLeft } from "react-icons/ai";
 import { NavLink } from "react-router-dom";
 import Button from "./Button";
 import CurrentGoPageContext from "../contexts/CurrentGoPageContext";
+import PageContext from "../contexts/PageContext";
 
-export const DiscoverCard = ({ image, heading, text, link, page }) => {
+export const DiscoverCard = ({ image, heading, text, link, pageName }) => {
   const { currentGoPage, setCurrentGoPage } = useContext(CurrentGoPageContext);
+  const { page, setPage } = useContext(PageContext);
+
+  const handlePage = (page) => {
+    setPage(page);
+  };
 
   const scrollUp = () => {
     window.scrollTo({
@@ -32,7 +38,8 @@ export const DiscoverCard = ({ image, heading, text, link, page }) => {
           <NavLink
             onClick={() => {
               scrollUp();
-              setCurrentGoPage(page);
+              setCurrentGoPage(pageName);
+              handlePage("where to go");
             }}
             to={link}
           >

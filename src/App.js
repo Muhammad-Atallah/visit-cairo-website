@@ -26,12 +26,19 @@ import ItineraryLayout from "./layouts/ItineraryLayout";
 import Islamic from "./pages/go/Islamic";
 import Coptic from "./pages/go/Coptic";
 import Modern from "./pages/go/Modern";
+import UncoveringTheHiddenGems from "./articles/food articles/UncoveringTheHiddenGems";
+import ExploringTheBestStreetFood from "./articles/food articles/ExploringTheBestStreetFood";
+import TheUltimateGuideToEgyptianBreakfast from "./articles/food articles/TheUltimateGuideToEgyptianBreakfast";
+import TheSweetestTreatsInCairo from "./articles/food articles/TheSweetestTreatsInCairo";
+import ACulinaryTour from "./articles/food articles/ACulinaryTour";
+import AVegetariansGuide from "./articles/food articles/AVegetariansGuide";
+import CairoBestSeafood from "./articles/food articles/CairoBestSeafood";
+import CairoFoodMarkets from "./articles/food articles/CairoFoodMarkets";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
     <Route path="/" element={<RouteLayout />}>
       <Route index path="" element={<Home />} />
-
       <Route path="where to go" element={<GoLayout />}>
         <Route path="" element={<GoPageInFocus />} />
         <Route path="Ancient" element={<Ancient />} />
@@ -39,21 +46,37 @@ const router = createBrowserRouter(
         <Route path="Coptic" element={<Coptic />} />
         <Route path="Modern" element={<Modern />} />
       </Route>
-
       <Route path="what to eat" element={<EatLayout />}>
         <Route index path="" element={<EatPageInFocus />} />
         <Route path="Restaurants" element={<Restaurants />} />
         <Route path="Cafes" element={<Cafes />} />
         <Route path="Bars" element={<Bars />} />
       </Route>
-
       <Route path="locals recommend" element={<LocalsRecommend />} />
-
       <Route path="local page" element={<LocalPageLayout />} />
-
       <Route path="ItineraryLayout" element={<ItineraryLayout />}>
         <Route path="ItinerarayPage" element={<ItinerarayPage />} />
       </Route>
+      <Route
+        path="UncoveringTheHiddenGems"
+        element={<UncoveringTheHiddenGems />}
+      />
+      <Route
+        path="ExploringTheBestStreetFood"
+        element={<ExploringTheBestStreetFood />}
+      />
+      <Route
+        path="TheUltimateGuideToEgyptianBreakfast"
+        element={<TheUltimateGuideToEgyptianBreakfast />}
+      />
+      <Route
+        path="TheSweetestTreatsInCairo"
+        element={<TheSweetestTreatsInCairo />}
+      />
+      <Route path="ACulinaryTour" element={<ACulinaryTour />} />
+      <Route path="AVegetariansGuide" element={<AVegetariansGuide />} />
+      <Route path="CairoBestSeafood" element={<CairoBestSeafood />} />
+      <Route path="CairoFoodMarkets" element={<CairoFoodMarkets />} />
     </Route>
   )
 );

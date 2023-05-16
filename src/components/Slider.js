@@ -2,8 +2,9 @@ import React, { useContext, useState } from "react";
 import { SlArrowRight, SlArrowLeft } from "react-icons/sl";
 import { NavLink } from "react-router-dom";
 import CurrentLocalContext from "../contexts/CurrentLocalContext";
+import scrollUp from "../data/scrollUpFunction";
 
-const Slider = ({ sliderData, path }) => {
+const Slider = ({ sliderData }) => {
   const [position, setPosition] = useState(0);
   const { localData, setLocalData } = useContext(CurrentLocalContext);
 
@@ -65,8 +66,9 @@ const Slider = ({ sliderData, path }) => {
               onClick={() => {
                 setLocalData({ ...item });
                 console.log(localData);
+                scrollUp();
               }}
-              to={path}
+              to={item.path}
               className="cursor-pointer"
             >
               <div

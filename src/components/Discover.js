@@ -8,28 +8,28 @@ export const Discover = () => {
       heading: "Islamic Cairo",
       text: "Explore the heart of Islamic Cairo, home to ancient mosques, madrasas, and bazaars, and immerse yourself in the city's Islamic heritage.",
       link: "where to go/Islamic",
-      page: "Islamic",
+      pageName: "Islamic",
     },
     {
       image: require("../images/Discover/hanging_church1.jpg"),
       heading: "Coptic Cairo",
       text: "Discover the Coptic Christian heritage of Cairo, where ancient churches, monasteries, and relics offer a glimpse into the city's religious history.",
       link: "where to go/Coptic",
-      page: "Coptic",
+      pageName: "Coptic",
     },
     {
       image: require("../images/Discover/pyramids.jpg"),
       heading: "Pharaonic Cairo",
       text: "Experience the wonder of ancient Cairo, home to the Great Pyramids, Sphinx, and the Egyptian Museum. A journey through time awaits.",
       link: "where to go/ancient",
-      page: "Ancient",
+      pageName: "Ancient",
     },
     {
       image: require("../images/Discover/modern-cairo.jpg"),
       heading: "Modern Cairo",
       text: "Discover the modern side of Cairo, a bustling metropolis of skyscrapers, shopping malls, and vibrant nightlife. A city that never sleeps.",
       link: "where to go/Modern",
-      page: "Modern",
+      pageName: "Modern",
     },
   ];
 

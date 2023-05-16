@@ -1,10 +1,18 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import { SlArrowRight, SlArrowLeft } from "react-icons/sl";
 import Button from "./Button";
 import Slider from "./Slider";
+import { NavLink } from "react-router-dom";
+import scrollUp from "../data/scrollUpFunction";
+import PageContext from "../contexts/PageContext";
 
 export const FoodSection = () => {
   const [position, setPosition] = useState(0);
+  const { page, setPage } = useContext(PageContext);
+
+  const handlePage = (page) => {
+    setPage(page);
+  };
 
   const myStyle = {
     right: position + "%",
@@ -29,64 +37,61 @@ export const FoodSection = () => {
   const mainImage = require("../images/Food/egyptian-food.jpg");
   const data = [
     {
-      image: require("../images/Food/1.jpg"),
-      title: "Traditional Egyptian Food in Cairo",
+      image: require("../images/articles/Food Articles/Uncovering the Hidden Gems/main-image.jpg"),
+      title: "Uncovering the Hidden Gems",
       classification: "Restaurants",
+      path: "UncoveringTheHiddenGems",
       key: 1,
     },
     {
-      image: require("../images/Food/2.jpg"),
-      title: "Traditional Egyptian Food in Cairo",
+      image: require("../images/articles/Food Articles/Exploring the Best Local Street Food in Cairo/main-image.jpg"),
+      title: "Exploring the Best Local Street Food",
       classification: "Restaurants",
+      path: "ExploringTheBestStreetFood",
       key: 2,
     },
     {
-      image: require("../images/Food/3.jpg"),
-      title: "Traditional Egyptian Food in Cairo",
+      image: require("../images/articles/Food Articles/The Ultimate Guide to Egyptian Breakfast/main-image.jpg"),
+      title: "The Ultimate Guide to Egyptian Breakfast",
       classification: "Restaurants",
+      path: "TheUltimateGuideToEgyptianBreakfast",
       key: 3,
     },
     {
-      image: require("../images/Food/4.jpg"),
-      title: "Traditional Egyptian Food in Cairo",
+      image: require("../images/articles/Food Articles/The Sweetest Treats in Cairo/main-image.jpg"),
+      title: " The Sweetest Treats in Cairo",
       classification: "Restaurants",
+      path: "TheSweetestTreatsInCairo",
       key: 4,
     },
     {
-      image: require("../images/Food/5.jpg"),
-      title: "Traditional Egyptian Food in Cairo",
+      image: require("../images/articles/Food Articles/A Culinary Tour of Historic Cairo/main-image.jpg"),
+      title: "A Culinary Tour of Historic Cairo",
       classification: "Restaurants",
+      path: "ACulinaryTour",
       key: 5,
     },
     {
-      image: require("../images/Food/6.jpg"),
-      title: "Traditional Egyptian Food in Cairo",
+      image: require("../images/articles/Food Articles/A Vegetarian's Guide to Eating in Cairo/main-image.jpg"),
+      title: "A Vegetarian's Guide to Eating in Cairo",
       classification: "Restaurants",
+      path: "AVegetariansGuide",
       key: 6,
     },
     {
-      image: require("../images/Food/7.jpg"),
-      title: "Traditional Egyptian Food in Cairo",
+      image: require("../images/articles/Food Articles/Cairo's Best Seafood/main-image.jpg"),
+      title: "Cairo's Best Seafood Restaurants",
       classification: "Restaurants",
+      path: "CairoBestSeafood",
       key: 7,
     },
     {
-      image: require("../images/Food/8.jpg"),
-      title: "Traditional Egyptian Food in Cairo",
+      image: require("../images/articles/Food Articles/Inside Cairo's Food Markets/main-image.jpg"),
+      title: "Inside Cairo's Food Markets",
       classification: "Restaurants",
+      path: "CairoFoodMarkets",
+
       key: 8,
-    },
-    {
-      image: require("../images/Food/9.jpg"),
-      title: "Traditional Egyptian Food in Cairo",
-      classification: "Restaurants",
-      key: 9,
-    },
-    {
-      image: require("../images/Food/10.jpg"),
-      title: "Traditional Egyptian Food in Cairo",
-      classification: "Restaurants",
-      key: 10,
     },
   ];
   return (
@@ -98,13 +103,20 @@ export const FoodSection = () => {
         >
           <div className="bg-white p-2 sm:p-10 min-w-[11rem] max-w-xs rounded shadow-md shadow-black relative opacity-[0.85] sm:opacity-100">
             <h3 className="text-xs sm:text:sm mb-2">CAIRO'S FOOD GUIDE</h3>
-            <h1 className="mb-4 text-sm">Find Cairo's most sustainable food</h1>
             <p className="text-xs mb-4">
               Egyptian cuisine is a feast for the senses, with flavorful dishes
               like koshari, ful medames, and shawarma. Street food and tea
               culture are also an integral part of the culinary experience.
             </p>
-            <Button buttonText="More" />
+            <NavLink
+              to="what to eat"
+              onClick={() => {
+                scrollUp();
+                handlePage("what to eat");
+              }}
+            >
+              <Button buttonText="More" />
+            </NavLink>
           </div>
         </div>
       </div>
