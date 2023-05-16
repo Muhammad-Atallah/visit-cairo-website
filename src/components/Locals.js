@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { SlArrowRight, SlArrowLeft } from "react-icons/sl";
 import Slider from "./Slider";
+import LocalSlider from "./LocalSlider";
 import { localsData } from "../data/localsData";
 
 const Locals = () => {
@@ -40,7 +41,7 @@ const Locals = () => {
             around the world!
           </p>
         </div>
-        <Slider sliderData={localsData} path="/local page" />
+        <LocalSlider sliderData={localsData} path="/local page" />
       </div>
     </div>
   );
