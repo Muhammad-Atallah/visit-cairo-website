@@ -1,66 +1,61 @@
 import React from "react";
 import Locals from "../components/Locals";
-import EatLikeALocal from "../components/Locals Recommend/EatLikeALocal";
 import FeaturedArticle from "../components/FeaturedArticle";
 import MyTopFive from "../components/Locals Recommend/MyTopFive";
 import { localsData } from "../data/localsData";
+import FeaturedBlockOfArticles from "../components/FeaturedBlockOfArticles";
 
 const LocalsRecommend = () => {
-  const featuedFoodArticles = [
-    {
-      image: require("../images/Locals Recommend/Food Articles/baklava.jpg"),
-      heading: "Dessert Places You Have to Try in Cairo",
-      classification: "restaurants",
-      authorImage: require("../images/Locals/1.jpg"),
-      authorName: "Amira Fathi",
-      authorClassification: "Local in Cairo",
-    },
-    {
-      image: require("../images/Locals Recommend/Food Articles/baklava.jpg"),
-      heading: "Dessert Places You Have to Try in Cairo",
-      classification: "restaurants",
-      authorImage: require("../images/Locals/1.jpg"),
-      authorName: "Amira Fathi",
-      authorClassification: "Local in Cairo",
-    },
-    {
-      image: require("../images/Locals Recommend/Food Articles/baklava.jpg"),
-      heading: "Dessert Places You Have to Try in Cairo",
-      classification: "restaurants",
-      authorImage: require("../images/Locals/1.jpg"),
-      authorName: "Amira Fathi",
-      authorClassification: "Local in Cairo",
-    },
-  ];
+  const featuedFoodArticles = {
+    mainHeader: "Eat Like a Local",
+    mainParagraph: "The people of Cairo reveal their favorite restaurants!",
+    data: [
+      {
+        image: require("../images/Locals Recommend/Food Articles/1-Traditional-Egyptian-Food-jintravel.com.jpg"),
+        title: "Dessert Places You Have to Try in Cairo",
+        classification: "Bars & Clubs",
+      },
+      {
+        image: require("../images/Locals Recommend/Food Articles/Egyptian-Koshari-in-a-Plate.png"),
+        title: "Dessert Places You Have to Try in Cairo",
+        classification: "Bars & Clubs",
+      },
+      {
+        image: require("../images/Locals Recommend/Food Articles/egyptian-food-falafel.jpg.webp"),
+        title: "Dessert Places You Have to Try in Cairo",
+        classification: "Bars & Clubs",
+      },
+    ],
+  };
 
   const topFiveData = [
     {
-      title: "Muhammad Atallah: My Favorite Galleries",
+      title: "Ganna Sayed: My Favorite Galleries",
       image: require("../images/Locals Recommend/My Top Five/1.jpg"),
       classification: "Attractions",
     },
     {
-      title: "Muhammad Atallah: My Favorite Galleries",
+      title: "Wessam Kady: My Favorite Social Clubs",
       image: require("../images/Locals Recommend/My Top Five/2.jpg"),
-      classification: "Attractions",
+      classification: "Activities",
     },
     {
-      title: "Muhammad Atallah: My Favorite Galleries",
+      title: "Ahmad Fathi: My Favorite Night Clubs",
       image: require("../images/Locals Recommend/My Top Five/3.jpg"),
-      classification: "Attractions",
+      classification: "Bars & Clubs",
     },
     {
-      title: "Muhammad Atallah: My Favorite Galleries",
+      title: "Mahmoud Sobhy: My Favorite Parks",
       image: require("../images/Locals Recommend/My Top Five/4.jpg"),
       classification: "Attractions",
     },
     {
-      title: "Muhammad Atallah: My Favorite Galleries",
+      title: "Sameh Shaheen: My Favorite Museums",
       image: require("../images/Locals Recommend/My Top Five/5.jpg"),
       classification: "Attractions",
     },
     {
-      title: "Muhammad Atallah: My Favorite Galleries",
+      title: "Youmna Souliman: My Favorite Palaces",
       image: require("../images/Locals Recommend/My Top Five/1.jpg"),
       classification: "Attractions",
     },
@@ -89,7 +84,7 @@ const LocalsRecommend = () => {
         </p>
       </div>
       <div>
-        <EatLikeALocal featuedFoodArticles={featuedFoodArticles} />
+        <FeaturedBlockOfArticles {...featuedFoodArticles} />
       </div>
       <div>
         <Locals />

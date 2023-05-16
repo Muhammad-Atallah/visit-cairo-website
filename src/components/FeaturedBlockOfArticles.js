@@ -16,14 +16,17 @@ const FeaturedBlockOfArticles = ({ mainHeader, mainParagraph, data }) => {
         <div className="flex flex-col md:flex-row justify-center items-center gap-y-2 gap-x-5 lg:gap-x-20">
           {data.map((item) => (
             <a className="cursor-pointer">
-              <div className="max-w-[16rem] max-h-[14rem]" key={item.key}>
+              <div
+                className="max-w-[16rem] max-h-[14rem] shadow-md"
+                key={item.key}
+              >
                 <img
-                  className="w-full brightness-95 aspect-[8/7]"
+                  className="w-full brightness-95 aspect-[8/7] rounded-sm"
                   src={item.image}
                   alt=""
                 />
                 <div className=" text-white relative flex flex-col p-2 gap-2 max-w-[22rem] bottom-[6rem] sm:bottom-[5rem] h-0">
-                  <h1 className="font-semibold text-sm sm:text-xs xl:text-sm">
+                  <h1 className="font-bold text-sm sm:text-xs xl:text-sm">
                     {item.title}
                   </h1>
                   <h2 className="text-[11px] uppercase">
