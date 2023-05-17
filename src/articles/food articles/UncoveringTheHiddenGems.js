@@ -10,7 +10,7 @@ import shabrawy from "../../images/articles/Food Articles/Uncovering the Hidden 
 
 const UncoveringTheHiddenGems = () => {
   return (
-    <div className="max-w-[800px] m-auto flex flex-col gap-5 my-5 px-4">
+    <div className="max-w-[800px] m-auto flex flex-col gap-5 mb-5 px-4">
       <img src={articleMainImage} alt="abou-shakra" />
       <h2 className="uppercase">restaurants</h2>
       <h1 className="font-bold text-lg">
