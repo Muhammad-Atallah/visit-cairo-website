@@ -22,7 +22,7 @@ const Main = () => {
       <div className="w-[100vw] h-[70vh]">
         <div
           id="overlay"
-          className="w-[100vw] h-[70vh] absolute bg-black opacity-20"
+          className="w-[100vw] h-[70vh] absolute bg-black opacity-10"
         ></div>
         <div className="absolute text-white text-2xl sm:text-4xl w-[100%] h-[70%] flex justify-center items-center font-serif">
           <h1>Follow The Sun</h1>
