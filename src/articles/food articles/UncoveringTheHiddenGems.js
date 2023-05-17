@@ -44,7 +44,7 @@ const UncoveringTheHiddenGems = () => {
               succulent and perfectly seasoned.
             </p>
           </section>
-          <img className="max-w-[500px]" src={abouShakra} alt="" />
+          <img className="max-w-[500px] self-center" src={abouShakra} alt="" />
         </section>
         <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
@@ -59,7 +59,7 @@ const UncoveringTheHiddenGems = () => {
               high-quality ingredients.
             </p>
           </section>
-          <img className="max-w-[500px]" src={elAbd} alt="" />
+          <img className="max-w-[500px] self-center" src={elAbd} alt="" />
         </section>
         <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
@@ -75,7 +75,7 @@ const UncoveringTheHiddenGems = () => {
             </p>
           </section>
 
-          <img className="max-w-[500px]" src={fishMarket} alt="" />
+          <img className="max-w-[500px] self-center" src={fishMarket} alt="" />
         </section>
         <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
@@ -90,7 +90,7 @@ const UncoveringTheHiddenGems = () => {
               delicious meal.
             </p>
           </section>
-          <img className="max-w-[500px]" src={abouShakra} alt="" />
+          <img className="max-w-[500px] self-center" src={abouShakra} alt="" />
         </section>
         <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
@@ -105,7 +105,7 @@ const UncoveringTheHiddenGems = () => {
               Nile River and is a great spot for a romantic dinner.
             </p>
           </section>
-          <img className="max-w-[500px]" src={sabaya} alt="" />
+          <img className="max-w-[500px] self-center" src={sabaya} alt="" />
         </section>
         <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
@@ -122,7 +122,7 @@ const UncoveringTheHiddenGems = () => {
             </p>
           </section>
 
-          <img className="max-w-[500px]" src={felfela} alt="" />
+          <img className="max-w-[500px] self-center" src={felfela} alt="" />
         </section>
         <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
@@ -137,7 +137,7 @@ const UncoveringTheHiddenGems = () => {
               spot for a quick and delicious meal.
             </p>
           </section>
-          <img className="max-w-[500px]" src={somaya} alt="" />
+          <img className="max-w-[500px] self-center" src={somaya} alt="" />
         </section>
         <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
@@ -152,7 +152,7 @@ const UncoveringTheHiddenGems = () => {
               great spot for a quick and delicious meal.
             </p>
           </section>
-          <img className="max-w-[500px]" src={shabrawy} alt="" />
+          <img className="max-w-[500px] self-center" src={shabrawy} alt="" />
         </section>
         <section className="flex flex-col gap-3">
           <p className="text-xs">

@@ -35,7 +35,11 @@ const CairoBestSeafood = () => {
               view of the Nile.
             </p>
           </section>
-          <img className="max-w-[500px]" src={fishMarket} alt="ful" />
+          <img
+            className="max-w-[500px] self-center"
+            src={fishMarket}
+            alt="ful"
+          />
         </section>
         <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
@@ -47,7 +51,11 @@ const CairoBestSeafood = () => {
               seafood is always fresh and cooked to perfection.
             </p>
           </section>
-          <img className="max-w-[500px]" src={horany} alt="falafel" />
+          <img
+            className="max-w-[500px] self-center"
+            src={horany}
+            alt="falafel"
+          />
         </section>
         <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
@@ -61,7 +69,11 @@ const CairoBestSeafood = () => {
             </p>
           </section>
 
-          <img className="max-w-[500px]" src={samakmak} alt="shakshuka" />
+          <img
+            className="max-w-[500px] self-center"
+            src={samakmak}
+            alt="shakshuka"
+          />
         </section>
         <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
@@ -73,7 +85,7 @@ const CairoBestSeafood = () => {
               the shrimp with garlic sauce.
             </p>
           </section>
-          <img className="max-w-[500px]" src={akkad} alt="baladi" />
+          <img className="max-w-[500px] self-center" src={akkad} alt="baladi" />
         </section>
         <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
@@ -85,7 +97,11 @@ const CairoBestSeafood = () => {
               lobster risotto.
             </p>
           </section>
-          <img className="max-w-[500px]" src={aquaELuce} alt="feteer" />
+          <img
+            className="max-w-[500px] self-center"
+            src={aquaELuce}
+            alt="feteer"
+          />
         </section>
         <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
@@ -97,7 +113,11 @@ const CairoBestSeafood = () => {
               relaxed atmosphere and is a great place to grab a quick bite.
             </p>
           </section>
-          <img className="max-w-[500px]" src={fishAndCo} alt="feteer" />
+          <img
+            className="max-w-[500px] self-center"
+            src={fishAndCo}
+            alt="feteer"
+          />
         </section>
         <section className="flex flex-col gap-3">
           <p className="text-xs">

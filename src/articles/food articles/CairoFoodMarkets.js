@@ -38,7 +38,7 @@ const CairoFoodMarkets = () => {
               and foul, a flavorful fava bean stew.
             </p>
           </section>
-          <img className="max-w-[500px]" src={khan} alt="ful" />
+          <img className="max-w-[500px] self-center" src={khan} alt="ful" />
         </section>
         <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
@@ -51,7 +51,7 @@ const CairoFoodMarkets = () => {
               freshly squeezed juices, grilled meat, and shawarma wraps.
             </p>
           </section>
-          <img className="max-w-[500px]" src={bab} alt="falafel" />
+          <img className="max-w-[500px] self-center" src={bab} alt="falafel" />
         </section>
         <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
@@ -66,7 +66,11 @@ const CairoFoodMarkets = () => {
             </p>
           </section>
 
-          <img className="max-w-[500px]" src={cityStars} alt="shakshuka" />
+          <img
+            className="max-w-[500px] self-center"
+            src={cityStars}
+            alt="shakshuka"
+          />
         </section>
         <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
@@ -81,7 +85,7 @@ const CairoFoodMarkets = () => {
               like mangosteen and custard apple.
             </p>
           </section>
-          <img className="max-w-[500px]" src={gomaa} alt="baladi" />
+          <img className="max-w-[500px] self-center" src={gomaa} alt="baladi" />
         </section>
         <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
@@ -94,7 +98,7 @@ const CairoFoodMarkets = () => {
               grilled meat skewers, sausages, and roasted corn.
             </p>
           </section>
-          <img className="max-w-[500px]" src={azhar} alt="feteer" />
+          <img className="max-w-[500px] self-center" src={azhar} alt="feteer" />
         </section>
         <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
@@ -109,7 +113,11 @@ const CairoFoodMarkets = () => {
               sesame paste) and basbousa (semolina cake soaked in syrup).
             </p>
           </section>
-          <img className="max-w-[500px]" src={sayeda} alt="feteer" />
+          <img
+            className="max-w-[500px] self-center"
+            src={sayeda}
+            alt="feteer"
+          />
         </section>
         <section className="flex flex-col gap-3">
           <p className="text-xs">

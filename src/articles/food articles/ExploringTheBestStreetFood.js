@@ -39,7 +39,7 @@ const ExploringTheBestStreetFood = () => {
               neighborhood of Mohandessin.
             </p>
           </section>
-          <img className="max-w-[500px]" src={falafel} alt="" />
+          <img className="max-w-[500px] self-center" src={falafel} alt="" />
         </section>
         <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
@@ -54,7 +54,7 @@ const ExploringTheBestStreetFood = () => {
               this dish since 1950.
             </p>
           </section>
-          <img className="max-w-[500px]" src={koshari} alt="" />
+          <img className="max-w-[500px] self-center" src={koshari} alt="" />
         </section>
         <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
@@ -71,7 +71,7 @@ const ExploringTheBestStreetFood = () => {
             </p>
           </section>
 
-          <img className="max-w-[500px]" src={feteer} alt="" />
+          <img className="max-w-[500px] self-center" src={feteer} alt="" />
         </section>
         <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
@@ -86,7 +86,7 @@ const ExploringTheBestStreetFood = () => {
               restaurant in the neighborhood of Dokki.
             </p>
           </section>
-          <img className="max-w-[500px]" src={hawawshi} alt="" />
+          <img className="max-w-[500px] self-center" src={hawawshi} alt="" />
         </section>
         <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
@@ -101,7 +101,7 @@ const ExploringTheBestStreetFood = () => {
               the neighborhood of Downtown.
             </p>
           </section>
-          <img className="max-w-[500px]" src={ful} alt="" />
+          <img className="max-w-[500px] self-center" src={ful} alt="" />
         </section>
         <section className="flex flex-col gap-3">
           <p className="text-xs">

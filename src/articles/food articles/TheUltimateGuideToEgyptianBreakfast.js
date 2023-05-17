@@ -36,7 +36,7 @@ const TheUltimateGuideToEgyptianBreakfast = () => {
               restaurant located in the neighborhood of Al-Hussein.
             </p>
           </section>
-          <img className="max-w-[500px]" src={ful} alt="ful" />
+          <img className="max-w-[500px] self-center" src={ful} alt="ful" />
         </section>
         <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
@@ -50,7 +50,11 @@ const TheUltimateGuideToEgyptianBreakfast = () => {
               restaurant located in the neighborhood of Zamalek.
             </p>
           </section>
-          <img className="max-w-[500px]" src={falafel} alt="falafel" />
+          <img
+            className="max-w-[500px] self-center"
+            src={falafel}
+            alt="falafel"
+          />
         </section>
         <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
@@ -66,7 +70,11 @@ const TheUltimateGuideToEgyptianBreakfast = () => {
             </p>
           </section>
 
-          <img className="max-w-[500px]" src={shakshuka} alt="shakshuka" />
+          <img
+            className="max-w-[500px] self-center"
+            src={shakshuka}
+            alt="shakshuka"
+          />
         </section>
         <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
@@ -80,7 +88,11 @@ const TheUltimateGuideToEgyptianBreakfast = () => {
               the neighborhood of Downtown.
             </p>
           </section>
-          <img className="max-w-[500px]" src={baladi} alt="baladi" />
+          <img
+            className="max-w-[500px] self-center"
+            src={baladi}
+            alt="baladi"
+          />
         </section>
         <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
@@ -96,7 +108,11 @@ const TheUltimateGuideToEgyptianBreakfast = () => {
               neighborhood of Mohandessin.
             </p>
           </section>
-          <img className="max-w-[500px]" src={feteer} alt="feteer" />
+          <img
+            className="max-w-[500px] self-center"
+            src={feteer}
+            alt="feteer"
+          />
         </section>
         <section className="flex flex-col gap-3">
           <p className="text-xs">

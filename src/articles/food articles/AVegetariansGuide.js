@@ -38,7 +38,7 @@ const AVegetariansGuide = () => {
               restaurants and street food stalls.
             </p>
           </section>
-          <img className="max-w-[500px]" src={koshary} alt="ful" />
+          <img className="max-w-[500px] self-center" src={koshary} alt="ful" />
         </section>
         <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
@@ -49,7 +49,11 @@ const AVegetariansGuide = () => {
               spices. It is usually served with tomato sauce and yogurt.
             </p>
           </section>
-          <img className="max-w-[500px]" src={Mahshi} alt="falafel" />
+          <img
+            className="max-w-[500px] self-center"
+            src={Mahshi}
+            alt="falafel"
+          />
         </section>
         <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
@@ -61,7 +65,11 @@ const AVegetariansGuide = () => {
             </p>
           </section>
 
-          <img className="max-w-[500px]" src={baba} alt="shakshuka" />
+          <img
+            className="max-w-[500px] self-center"
+            src={baba}
+            alt="shakshuka"
+          />
         </section>
         <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
@@ -74,7 +82,11 @@ const AVegetariansGuide = () => {
               mushrooms are added for extra protein.
             </p>
           </section>
-          <img className="max-w-[500px]" src={Molokhiya} alt="baladi" />
+          <img
+            className="max-w-[500px] self-center"
+            src={Molokhiya}
+            alt="baladi"
+          />
         </section>
         <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
@@ -87,7 +99,11 @@ const AVegetariansGuide = () => {
               who want to try something new.
             </p>
           </section>
-          <img className="max-w-[500px]" src={Moussaka} alt="feteer" />
+          <img
+            className="max-w-[500px] self-center"
+            src={Moussaka}
+            alt="feteer"
+          />
         </section>
         <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
@@ -101,7 +117,7 @@ const AVegetariansGuide = () => {
               extra flavor and protein.
             </p>
           </section>
-          <img className="max-w-[500px]" src={Eggah} alt="feteer" />
+          <img className="max-w-[500px] self-center" src={Eggah} alt="feteer" />
         </section>
         <section className="flex flex-col gap-3">
           <p className="text-xs">

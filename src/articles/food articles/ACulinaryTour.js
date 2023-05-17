@@ -39,7 +39,11 @@ const ACulinaryTour = () => {
               served with a side of crispy fries and tahini sauce.
             </p>
           </section>
-          <img className="max-w-[500px]" src={abouShakra} alt="ful" />
+          <img
+            className="max-w-[500px] self-center"
+            src={abouShakra}
+            alt="ful"
+          />
         </section>
         <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
@@ -53,7 +57,11 @@ const ACulinaryTour = () => {
               kofta and grilled chicken.
             </p>
           </section>
-          <img className="max-w-[500px]" src={andrea} alt="falafel" />
+          <img
+            className="max-w-[500px] self-center"
+            src={andrea}
+            alt="falafel"
+          />
         </section>
         <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
@@ -68,7 +76,11 @@ const ACulinaryTour = () => {
             </p>
           </section>
 
-          <img className="max-w-[500px]" src={felfela} alt="shakshuka" />
+          <img
+            className="max-w-[500px] self-center"
+            src={felfela}
+            alt="shakshuka"
+          />
         </section>
         <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
@@ -83,7 +95,7 @@ const ACulinaryTour = () => {
               spices.
             </p>
           </section>
-          <img className="max-w-[500px]" src={elDar} alt="feteer" />
+          <img className="max-w-[500px] self-center" src={elDar} alt="feteer" />
         </section>
         <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
@@ -97,7 +109,11 @@ const ACulinaryTour = () => {
               includes a selection of grilled meats and vegetables.
             </p>
           </section>
-          <img className="max-w-[500px]" src={menaHouse} alt="feteer" />
+          <img
+            className="max-w-[500px] self-center"
+            src={menaHouse}
+            alt="feteer"
+          />
         </section>
         <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
@@ -114,7 +130,11 @@ const ACulinaryTour = () => {
               the distance.
             </p>
           </section>
-          <img className="max-w-[500px]" src={pyramidsLounge} alt="feteer" />
+          <img
+            className="max-w-[500px] self-center"
+            src={pyramidsLounge}
+            alt="feteer"
+          />
         </section>
         <section className="flex flex-col gap-3">
           <p className="text-xs">

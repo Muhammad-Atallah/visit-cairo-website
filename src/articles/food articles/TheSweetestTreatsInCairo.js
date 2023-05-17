@@ -36,7 +36,7 @@ const TheSweetestTreatsInCairo = () => {
               historic bakery located in the neighborhood of Downtown.
             </p>
           </section>
-          <img className="max-w-[500px]" src={basbousa} alt="ful" />
+          <img className="max-w-[500px] self-center" src={basbousa} alt="ful" />
         </section>
         <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
@@ -50,7 +50,11 @@ const TheSweetestTreatsInCairo = () => {
               tooth.
             </p>
           </section>
-          <img className="max-w-[500px]" src={qatayef} alt="falafel" />
+          <img
+            className="max-w-[500px] self-center"
+            src={qatayef}
+            alt="falafel"
+          />
         </section>
         <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
@@ -66,7 +70,11 @@ const TheSweetestTreatsInCairo = () => {
             </p>
           </section>
 
-          <img className="max-w-[500px]" src={omALi} alt="shakshuka" />
+          <img
+            className="max-w-[500px] self-center"
+            src={omALi}
+            alt="shakshuka"
+          />
         </section>
         <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
@@ -80,7 +88,11 @@ const TheSweetestTreatsInCairo = () => {
               located in the neighborhood of Heliopolis.
             </p>
           </section>
-          <img className="max-w-[500px]" src={konafa} alt="baladi" />
+          <img
+            className="max-w-[500px] self-center"
+            src={konafa}
+            alt="baladi"
+          />
         </section>
         <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
@@ -94,7 +106,11 @@ const TheSweetestTreatsInCairo = () => {
               traditional Egyptian restaurants, as well as modern cafes.
             </p>
           </section>
-          <img className="max-w-[500px]" src={mahalabiya} alt="feteer" />
+          <img
+            className="max-w-[500px] self-center"
+            src={mahalabiya}
+            alt="feteer"
+          />
         </section>
         <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
@@ -107,7 +123,11 @@ const TheSweetestTreatsInCairo = () => {
               serves some of the best baklava in town.
             </p>
           </section>
-          <img className="max-w-[500px]" src={baklava} alt="feteer" />
+          <img
+            className="max-w-[500px] self-center"
+            src={baklava}
+            alt="feteer"
+          />
         </section>
         <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
@@ -120,7 +140,11 @@ const TheSweetestTreatsInCairo = () => {
               neighborhood of Zamalek.
             </p>
           </section>
-          <img className="max-w-[500px]" src={rozBeLaban} alt="feteer" />
+          <img
+            className="max-w-[500px] self-center"
+            src={rozBeLaban}
+            alt="feteer"
+          />
         </section>
         <section className="flex flex-col gap-3">
           <p className="text-xs">
