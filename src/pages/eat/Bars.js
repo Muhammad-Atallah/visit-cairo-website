@@ -4,6 +4,29 @@ import FeaturedArticle from "../../components/FeaturedArticle";
 import FeaturedBlockOfArticles from "../../components/FeaturedBlockOfArticles";
 
 const Bars = () => {
+  const aNightOnTheTownData = {
+    mainHeader: "A night on the town",
+    mainParagraph:
+      "Innovative drinks, a great concert, a night of clubbing, or all of the above? Start planing your evening in Stockholm here!",
+    data: [
+      {
+        image: require("../../images/Where to Eat/Bars & NIghtlife/1.jpg"),
+        title: "Bars And Clubs That Offers Amazing Cairo Nightlife Experience",
+        classification: "Bars & Nightclubs",
+      },
+      {
+        image: require("../../images/Where to Eat/Bars & NIghtlife/2.jpg"),
+        title: "Bars And Clubs That Offers Amazing Cairo Nightlife Experience",
+        classification: "Bars & Nightclubs",
+      },
+      {
+        image: require("../../images/Where to Eat/Bars & NIghtlife/3.jpg"),
+        title: "Bars And Clubs That Offers Amazing Cairo Nightlife Experience",
+        classification: "Bars & Nightclubs",
+      },
+    ],
+  };
+
   const barsFeaturedArticleData = {
     image: require("../../images/Where to Eat/Bars & NIghtlife/Featured Article/khan.jpg"),
     heading:
@@ -37,7 +60,7 @@ const Bars = () => {
   return (
     <div>
       <div>
-        <ANightOnTheTown />
+        <FeaturedBlockOfArticles {...aNightOnTheTownData} />
       </div>
       <div>
         <FeaturedArticle {...barsFeaturedArticleData} />

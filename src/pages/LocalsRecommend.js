@@ -33,31 +33,37 @@ const LocalsRecommend = () => {
       title: "Ganna Sayed: My Favorite Galleries",
       image: require("../images/Locals Recommend/My Top Five/1.jpg"),
       classification: "Attractions",
+      id: 1,
     },
     {
       title: "Wessam Kady: My Favorite Social Clubs",
       image: require("../images/Locals Recommend/My Top Five/2.jpg"),
       classification: "Activities",
+      id: 2,
     },
     {
       title: "Ahmad Fathi: My Favorite Night Clubs",
       image: require("../images/Locals Recommend/My Top Five/3.jpg"),
       classification: "Bars & Clubs",
+      id: 3,
     },
     {
       title: "Mahmoud Sobhy: My Favorite Parks",
       image: require("../images/Locals Recommend/My Top Five/4.jpg"),
       classification: "Attractions",
+      id: 4,
     },
     {
       title: "Sameh Shaheen: My Favorite Museums",
       image: require("../images/Locals Recommend/My Top Five/5.jpg"),
       classification: "Attractions",
+      id: 5,
     },
     {
       title: "Youmna Souliman: My Favorite Palaces",
       image: require("../images/Locals Recommend/My Top Five/1.jpg"),
       classification: "Attractions",
+      id: 6,
     },
   ];
 

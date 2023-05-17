@@ -9,6 +9,7 @@ export const Discover = () => {
       text: "Explore the heart of Islamic Cairo, home to ancient mosques, madrasas, and bazaars, and immerse yourself in the city's Islamic heritage.",
       link: "where to go/Islamic",
       pageName: "Islamic",
+      id: 1,
     },
     {
       image: require("../images/Discover/hanging_church1.jpg"),
@@ -16,6 +17,7 @@ export const Discover = () => {
       text: "Discover the Coptic Christian heritage of Cairo, where ancient churches, monasteries, and relics offer a glimpse into the city's religious history.",
       link: "where to go/Coptic",
       pageName: "Coptic",
+      id: 2,
     },
     {
       image: require("../images/Discover/pyramids.jpg"),
@@ -23,6 +25,7 @@ export const Discover = () => {
       text: "Experience the wonder of ancient Cairo, home to the Great Pyramids, Sphinx, and the Egyptian Museum. A journey through time awaits.",
       link: "where to go/ancient",
       pageName: "Ancient",
+      id: 3,
     },
     {
       image: require("../images/Discover/modern-cairo.jpg"),
@@ -30,6 +33,7 @@ export const Discover = () => {
       text: "Discover the modern side of Cairo, a bustling metropolis of skyscrapers, shopping malls, and vibrant nightlife. A city that never sleeps.",
       link: "where to go/Modern",
       pageName: "Modern",
+      id: 4,
     },
   ];
 
@@ -54,6 +58,7 @@ export const Discover = () => {
             <DiscoverCard
               {...card}
               className="justify-self-center self-center"
+              key={card.id}
             />
           ))}
         </div>

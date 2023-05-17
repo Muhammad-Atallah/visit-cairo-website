@@ -70,6 +70,7 @@ const Slider = ({ sliderData }) => {
               }}
               to={item.path}
               className="cursor-pointer"
+              key={item.id}
             >
               <div
                 className=" flex flex-col gap-2 justify-center items-center w-32 sm:w-48"

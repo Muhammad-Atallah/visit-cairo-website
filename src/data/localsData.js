@@ -1,5 +1,6 @@
 export const localsData = [
   {
+    id: 1,
     image: require("../images/Locals/1.jpg"),
     title: "Amira Fathi",
     classification: "local in cairo",
@@ -69,6 +70,7 @@ export const localsData = [
     ],
   },
   {
+    id: 2,
     image: require("../images/Locals/10.jpg"),
     title: "Magdi Gamal",
     classification: "local in cairo",
@@ -145,6 +147,7 @@ export const localsData = [
     ],
   },
   {
+    id: 3,
     image: require("../images/Locals/2.jpg"),
     title: "Hana Moustafa",
     classification: "local in cairo",
@@ -212,6 +215,7 @@ export const localsData = [
     ],
   },
   {
+    id: 4,
     image: require("../images/Locals/3.jpg"),
     title: "Andrew Atef",
     classification: "local in cairo",
@@ -263,6 +267,7 @@ export const localsData = [
     ],
   },
   {
+    id: 5,
     image: require("../images/Locals/4.jpg"),
     title: "Diala Hazem",
     classification: "local in cairo",
@@ -316,6 +321,7 @@ export const localsData = [
     ],
   },
   {
+    id: 6,
     image: require("../images/Locals/9.jpg"),
     title: "Gaber Zayed",
     classification: "local in cairo",
@@ -384,6 +390,7 @@ export const localsData = [
     ],
   },
   {
+    id: 7,
     image: require("../images/Locals/5.jpg"),
     title: "Nihal Roshdy",
     classification: "local in cairo",
@@ -438,6 +445,7 @@ export const localsData = [
     ],
   },
   {
+    id: 8,
     image: require("../images/Locals/6.jpg"),
     title: "Hana Nabil",
     classification: "local in cairo",
@@ -508,6 +516,7 @@ export const localsData = [
     ],
   },
   {
+    id: 9,
     image: require("../images/Locals/7.jpg"),
     title: "Adam Attia",
     classification: "local",
@@ -563,6 +572,7 @@ export const localsData = [
     ],
   },
   {
+    id: 10,
     image: require("../images/Locals/8.jpg"),
     title: "Shadi Mohsen",
     classification: "local in cairo",
