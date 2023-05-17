@@ -9,7 +9,7 @@ import menaHouse from "../../images/articles/Food Articles/A Culinary Tour of Hi
 
 const ACulinaryTour = () => {
   return (
-    <div className="max-w-[800px] m-auto flex flex-col gap-5 my-5">
+    <div className="max-w-[800px] m-auto flex flex-col gap-5 my-5 px-4">
       <img src={articleMainImage} alt="abou-shakra" />
       <h2 className="uppercase">restaurants</h2>
       <h1 className="font-bold text-lg">
@@ -27,7 +27,7 @@ const ACulinaryTour = () => {
             Pyramids and Sphinx:
           </p>
         </section>
-        <section className="flex gap-3">
+        <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
             <h3 className="font-semibold text-sm">Abou Shakra</h3>
             <p className="text-xs">
@@ -41,7 +41,7 @@ const ACulinaryTour = () => {
           </section>
           <img className="max-w-[500px]" src={abouShakra} alt="ful" />
         </section>
-        <section className="flex gap-3">
+        <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
             <h3 className="font-semibold text-sm">Andrea</h3>
             <p className="text-xs">
@@ -55,7 +55,7 @@ const ACulinaryTour = () => {
           </section>
           <img className="max-w-[500px]" src={andrea} alt="falafel" />
         </section>
-        <section className="flex gap-3">
+        <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
             <h3 className="font-semibold text-sm">Felfela</h3>
             <p className="text-xs">
@@ -70,7 +70,7 @@ const ACulinaryTour = () => {
 
           <img className="max-w-[500px]" src={felfela} alt="shakshuka" />
         </section>
-        <section className="flex gap-3">
+        <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
             <h3 className="font-semibold text-sm">El Dar Darak</h3>
             <p className="text-xs">
@@ -85,7 +85,7 @@ const ACulinaryTour = () => {
           </section>
           <img className="max-w-[500px]" src={elDar} alt="feteer" />
         </section>
-        <section className="flex gap-3">
+        <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
             <h3 className="font-semibold text-sm">The Mena House</h3>
             <p className="text-xs">
@@ -99,7 +99,7 @@ const ACulinaryTour = () => {
           </section>
           <img className="max-w-[500px]" src={menaHouse} alt="feteer" />
         </section>
-        <section className="flex gap-3">
+        <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
             <h3 className="font-semibold text-sm">9 Pyramids Lounge</h3>
             <p className="text-xs">

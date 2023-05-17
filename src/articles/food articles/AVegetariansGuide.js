@@ -9,7 +9,7 @@ import Eggah from "../../images/articles/Food Articles/A Vegetarian's Guide to E
 
 const AVegetariansGuide = () => {
   return (
-    <div className="max-w-[800px] m-auto flex flex-col gap-5 my-5">
+    <div className="max-w-[800px] m-auto flex flex-col gap-5 my-5 px-4">
       <img src={articleMainImage} alt="abou-shakra" />
       <h2 className="uppercase">restaurants</h2>
       <h1 className="font-bold text-lg">
@@ -27,7 +27,7 @@ const AVegetariansGuide = () => {
             the city:
           </p>
         </section>
-        <section className="flex gap-3">
+        <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
             <h3 className="font-semibold text-sm">Koshary</h3>
             <p className="text-xs">
@@ -40,7 +40,7 @@ const AVegetariansGuide = () => {
           </section>
           <img className="max-w-[500px]" src={koshary} alt="ful" />
         </section>
-        <section className="flex gap-3">
+        <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
             <h3 className="font-semibold text-sm">Mahshi</h3>
             <p className="text-xs">
@@ -51,7 +51,7 @@ const AVegetariansGuide = () => {
           </section>
           <img className="max-w-[500px]" src={Mahshi} alt="falafel" />
         </section>
-        <section className="flex gap-3">
+        <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
             <h3 className="font-semibold text-sm">Baba Ghanoush</h3>
             <p className="text-xs">
@@ -63,7 +63,7 @@ const AVegetariansGuide = () => {
 
           <img className="max-w-[500px]" src={baba} alt="shakshuka" />
         </section>
-        <section className="flex gap-3">
+        <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
             <h3 className="font-semibold text-sm">Molokhiya</h3>
             <p className="text-xs">
@@ -76,7 +76,7 @@ const AVegetariansGuide = () => {
           </section>
           <img className="max-w-[500px]" src={Molokhiya} alt="baladi" />
         </section>
-        <section className="flex gap-3">
+        <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
             <h3 className="font-semibold text-sm">Egyptian Moussaka</h3>
             <p className="text-xs">
@@ -89,7 +89,7 @@ const AVegetariansGuide = () => {
           </section>
           <img className="max-w-[500px]" src={Moussaka} alt="feteer" />
         </section>
-        <section className="flex gap-3">
+        <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
             <h3 className="font-semibold text-sm">Eggah</h3>
             <p className="text-xs">

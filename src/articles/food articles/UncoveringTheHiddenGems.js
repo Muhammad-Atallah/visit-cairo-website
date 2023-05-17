@@ -10,7 +10,7 @@ import shabrawy from "../../images/articles/Food Articles/Uncovering the Hidden 
 
 const UncoveringTheHiddenGems = () => {
   return (
-    <div className="max-w-[800px] m-auto flex flex-col gap-5 my-5">
+    <div className="max-w-[800px] m-auto flex flex-col gap-5 my-5 px-4">
       <img src={articleMainImage} alt="abou-shakra" />
       <h2 className="uppercase">restaurants</h2>
       <h1 className="font-bold text-lg">
@@ -30,7 +30,7 @@ const UncoveringTheHiddenGems = () => {
             deserve more attention.
           </p>
         </section>
-        <section className="flex gap-3">
+        <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
             <h3 className="font-semibold text-sm">Abou Shakra</h3>
             <p className="text-xs">
@@ -46,7 +46,7 @@ const UncoveringTheHiddenGems = () => {
           </section>
           <img className="max-w-[500px]" src={abouShakra} alt="" />
         </section>
-        <section className="flex gap-3">
+        <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
             <h3 className="font-semibold text-sm">El Abd Bakery</h3>
             <p className="text-xs">
@@ -61,7 +61,7 @@ const UncoveringTheHiddenGems = () => {
           </section>
           <img className="max-w-[500px]" src={elAbd} alt="" />
         </section>
-        <section className="flex gap-3">
+        <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
             <h3 className="font-semibold text-sm">El Tahrir Fish Market</h3>
             <p className="text-xs">
@@ -77,7 +77,7 @@ const UncoveringTheHiddenGems = () => {
 
           <img className="max-w-[500px]" src={fishMarket} alt="" />
         </section>
-        <section className="flex gap-3">
+        <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
             <h3 className="font-semibold text-sm">Alfa Market</h3>
             <p className="text-xs">
@@ -92,7 +92,7 @@ const UncoveringTheHiddenGems = () => {
           </section>
           <img className="max-w-[500px]" src={abouShakra} alt="" />
         </section>
-        <section className="flex gap-3">
+        <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
             <h3 className="font-semibold text-sm">Sabaya</h3>
             <p className="text-xs">
@@ -107,7 +107,7 @@ const UncoveringTheHiddenGems = () => {
           </section>
           <img className="max-w-[500px]" src={sabaya} alt="" />
         </section>
-        <section className="flex gap-3">
+        <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
             <h3 className="font-semibold text-sm">Felfela</h3>
             <p className="text-xs">
@@ -124,7 +124,7 @@ const UncoveringTheHiddenGems = () => {
 
           <img className="max-w-[500px]" src={felfela} alt="" />
         </section>
-        <section className="flex gap-3">
+        <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
             <h3 className="font-semibold text-sm">Fasahet Somaya</h3>
             <p className="text-xs">
@@ -139,7 +139,7 @@ const UncoveringTheHiddenGems = () => {
           </section>
           <img className="max-w-[500px]" src={somaya} alt="" />
         </section>
-        <section className="flex gap-3">
+        <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
             <h3 className="font-semibold text-sm">El Shabrawy</h3>
             <p className="text-xs">

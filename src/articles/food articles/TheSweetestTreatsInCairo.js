@@ -10,7 +10,7 @@ import rozBeLaban from "../../images/articles/Food Articles/The Sweetest Treats 
 
 const TheSweetestTreatsInCairo = () => {
   return (
-    <div className="max-w-[800px] m-auto flex flex-col gap-5 my-5">
+    <div className="max-w-[800px] m-auto flex flex-col gap-5 my-5 px-4">
       <img src={articleMainImage} alt="abou-shakra" />
       <h2 className="uppercase">restaurants</h2>
       <h1 className="font-bold text-lg">
@@ -38,7 +38,7 @@ const TheSweetestTreatsInCairo = () => {
           </section>
           <img className="max-w-[500px]" src={basbousa} alt="ful" />
         </section>
-        <section className="flex gap-3">
+        <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
             <h3 className="font-semibold text-sm">Qatayef</h3>
             <p className="text-xs">
@@ -52,7 +52,7 @@ const TheSweetestTreatsInCairo = () => {
           </section>
           <img className="max-w-[500px]" src={qatayef} alt="falafel" />
         </section>
-        <section className="flex gap-3">
+        <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
             <h3 className="font-semibold text-sm">Om Ali</h3>
             <p className="text-xs">
@@ -68,7 +68,7 @@ const TheSweetestTreatsInCairo = () => {
 
           <img className="max-w-[500px]" src={omALi} alt="shakshuka" />
         </section>
-        <section className="flex gap-3">
+        <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
             <h3 className="font-semibold text-sm">Konafa</h3>
             <p className="text-xs">
@@ -82,7 +82,7 @@ const TheSweetestTreatsInCairo = () => {
           </section>
           <img className="max-w-[500px]" src={konafa} alt="baladi" />
         </section>
-        <section className="flex gap-3">
+        <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
             <h3 className="font-semibold text-sm">Mahalabiya</h3>
             <p className="text-xs">
@@ -96,7 +96,7 @@ const TheSweetestTreatsInCairo = () => {
           </section>
           <img className="max-w-[500px]" src={mahalabiya} alt="feteer" />
         </section>
-        <section className="flex gap-3">
+        <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
             <h3 className="font-semibold text-sm">Baklava</h3>
             <p className="text-xs">
@@ -109,7 +109,7 @@ const TheSweetestTreatsInCairo = () => {
           </section>
           <img className="max-w-[500px]" src={baklava} alt="feteer" />
         </section>
-        <section className="flex gap-3">
+        <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
             <h3 className="font-semibold text-sm">Roz Bel Laban</h3>
             <p className="text-xs">

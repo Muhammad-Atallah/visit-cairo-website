@@ -8,7 +8,7 @@ import baladi from "../../images/articles/Food Articles/The Ultimate Guide to Eg
 
 const TheUltimateGuideToEgyptianBreakfast = () => {
   return (
-    <div className="max-w-[800px] m-auto flex flex-col gap-5 my-5">
+    <div className="max-w-[800px] m-auto flex flex-col gap-5 my-5 px-4">
       <img src={articleMainImage} alt="abou-shakra" />
       <h2 className="uppercase">restaurants</h2>
       <h1 className="font-bold text-lg">
@@ -38,7 +38,7 @@ const TheUltimateGuideToEgyptianBreakfast = () => {
           </section>
           <img className="max-w-[500px]" src={ful} alt="ful" />
         </section>
-        <section className="flex gap-3">
+        <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
             <h3 className="font-semibold text-sm">Taameya</h3>
             <p className="text-xs">
@@ -52,7 +52,7 @@ const TheUltimateGuideToEgyptianBreakfast = () => {
           </section>
           <img className="max-w-[500px]" src={falafel} alt="falafel" />
         </section>
-        <section className="flex gap-3">
+        <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
             <h3 className="font-semibold text-sm">Shakshuka</h3>
             <p className="text-xs">
@@ -68,7 +68,7 @@ const TheUltimateGuideToEgyptianBreakfast = () => {
 
           <img className="max-w-[500px]" src={shakshuka} alt="shakshuka" />
         </section>
-        <section className="flex gap-3">
+        <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
             <h3 className="font-semibold text-sm">Baladi Bread</h3>
             <p className="text-xs">
@@ -82,7 +82,7 @@ const TheUltimateGuideToEgyptianBreakfast = () => {
           </section>
           <img className="max-w-[500px]" src={baladi} alt="baladi" />
         </section>
-        <section className="flex gap-3">
+        <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
             <h3 className="font-semibold text-sm">Feteer</h3>
             <p className="text-xs">

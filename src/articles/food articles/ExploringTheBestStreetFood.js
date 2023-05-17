@@ -8,7 +8,7 @@ import feteer from "../../images/articles/Food Articles/Exploring the Best Local
 
 const ExploringTheBestStreetFood = () => {
   return (
-    <div className="max-w-[800px] m-auto flex flex-col gap-5 my-5">
+    <div className="max-w-[800px] m-auto flex flex-col gap-5 my-5 px-4">
       <img src={articleMainImage} alt="abou-shakra" />
       <h2 className="uppercase">restaurants</h2>
       <h1 className="font-bold text-lg">
@@ -26,7 +26,7 @@ const ExploringTheBestStreetFood = () => {
             Cairo.
           </p>
         </section>
-        <section className="flex gap-3">
+        <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
             <h3 className="font-semibold text-sm">Ta'ameya (Falafel)</h3>
             <p className="text-xs">
@@ -41,7 +41,7 @@ const ExploringTheBestStreetFood = () => {
           </section>
           <img className="max-w-[500px]" src={falafel} alt="" />
         </section>
-        <section className="flex gap-3">
+        <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
             <h3 className="font-semibold text-sm">Koshari</h3>
             <p className="text-xs">
@@ -56,7 +56,7 @@ const ExploringTheBestStreetFood = () => {
           </section>
           <img className="max-w-[500px]" src={koshari} alt="" />
         </section>
-        <section className="flex gap-3">
+        <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
             <h3 className="font-semibold text-sm">Feteer Meshaltet</h3>
             <p className="text-xs">
@@ -73,7 +73,7 @@ const ExploringTheBestStreetFood = () => {
 
           <img className="max-w-[500px]" src={feteer} alt="" />
         </section>
-        <section className="flex gap-3">
+        <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
             <h3 className="font-semibold text-sm">Hawawshi</h3>
             <p className="text-xs">
@@ -88,7 +88,7 @@ const ExploringTheBestStreetFood = () => {
           </section>
           <img className="max-w-[500px]" src={hawawshi} alt="" />
         </section>
-        <section className="flex gap-3">
+        <section className="flex flex-col md:flex-row gap-3">
           <section className="flex flex-col gap-3 justify-center">
             <h3 className="font-semibold text-sm">Ful Medames</h3>
             <p className="text-xs">
