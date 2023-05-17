@@ -27,7 +27,7 @@ const Slider = ({ sliderData }) => {
   };
 
   const handleMovementLeft = () => {
-    if (position < 150 && position >= 0) {
+    if (position < 100 && position >= 0) {
       setPosition(position + 20);
     } else {
       setPosition(0);
@@ -35,7 +35,7 @@ const Slider = ({ sliderData }) => {
   };
 
   const handleMovementRight = () => {
-    if (position < 150 && position >= 0) {
+    if (position < 100 && position >= 0) {
       setPosition(position - 20);
     } else {
       setPosition(0);
