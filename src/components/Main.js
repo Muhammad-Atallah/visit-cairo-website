@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import main from "../assets/main.webm";
+import main from "../assets/main-video.mp4";
 import { IoCloseCircleOutline } from "react-icons/io5";
 import { IoPlayCircleOutline } from "react-icons/io5";
 
