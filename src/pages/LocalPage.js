@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { AiOutlineLink } from "react-icons/ai";
+import { NavLink } from "react-router-dom";
 
 const LocalPage = ({ image, title, quote, about, guides, favoriteSpots }) => {
   const [activeSection, setActiveSection] = useState("guides");
@@ -60,19 +61,19 @@ const LocalPage = ({ image, title, quote, about, guides, favoriteSpots }) => {
         <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center gap-10 ">
           {activeSection === "guides" &&
             guides.map((item) => (
-              <a className="cursor-pointer">
+              <NavLink to={item.to}>
                 <div>
                   <img
-                    className="w-64 h-60 object-cover brightness-75 rounded-sm"
+                    className="w-64 h-60 object-cover brightness-90 rounded-sm"
                     src={item.image}
                     alt=""
                   />
-                  <div className="w-60 h-0 relative bottom-[5rem] text-white px-2">
-                    <h1>{item.title}</h1>
-                    <h2>{item.classification}</h2>
+                  <div className="w-60 h-0 relative bottom-[5.5rem] text-white px-2 flex flex-col gap-1">
+                    <h1 className="text-sm font-semibold">{item.title}</h1>
+                    <h2 className="text-xs uppercase">{item.classification}</h2>
                   </div>
                 </div>
-              </a>
+              </NavLink>
             ))}
         </div>
 

@@ -2,7 +2,7 @@ export const localsData = [
   {
     id: 1,
     image: require("../images/Locals/1.jpg"),
-    title: "Amira Fathi",
+    title: "Amira Hadi",
     classification: "local in cairo",
     quote:
       "'Cairo is a city that never sleeps, always buzzing with energy and excitement. I feel alive here, surrounded by the rich history and culture that this city has to offer.'",
@@ -10,19 +10,23 @@ export const localsData = [
       "Amira is a young university student living in the bustling city of Cairo. She finds inspiration and joy in the vibrant energy of the city, which is full of life and history. Amidst the noise and crowds, Amira feels alive and connected to her surroundings. Amira studies anthropology at the American University in Cairo and is passionate about exploring different cultures and traditions. She loves to spend her free time visiting historical sites and trying out new street food. Despite the challenges of living in a big city, Amira finds solace in the tight-knit community of her university and the warmth of her family and friends.",
     guides: [
       {
-        image: require("../images/Local Page/Amira Fathi/1.jpg"),
-        title: "How I Spend a Family Friendly Day in Cairo",
-        classification: "Activities",
+        image: require("../images/articles/Locals' Articles/Amira Hadi/UnearthingCairoHiddenGems/main-image.jpg"),
+        title:
+          "Unearthing Cairo's Hidden Gems: A Local's Guide to Off-the-Beaten-Path Historical Sites",
+        classification: "Attractions",
+        to: "/UnearthingCairoHiddenGems",
       },
       {
         image: require("../images/Local Page/Amira Fathi/2.jpg"),
-        title: "How I Spend a Family Friendly Day in Cairo",
-        classification: "Activities",
+        title:
+          "Street Food Adventures: Exploring Cairo's Culinary Delights with a Local Foodie",
+        classification: "Restaurants",
       },
       {
         image: require("../images/Local Page/Amira Fathi/3.jpg"),
-        title: "How I Spend a Family Friendly Day in Cairo",
-        classification: "Activities",
+        title:
+          "Embracing Cultural Diversity: A Journey through Cairo's Traditions and Festivals",
+        classification: "Culture",
       },
     ],
     favoriteSpots: [

@@ -34,6 +34,7 @@ import ACulinaryTour from "./articles/food articles/ACulinaryTour";
 import AVegetariansGuide from "./articles/food articles/AVegetariansGuide";
 import CairoBestSeafood from "./articles/food articles/CairoBestSeafood";
 import CairoFoodMarkets from "./articles/food articles/CairoFoodMarkets";
+import UnearthingCairoHiddenGems from "./articles/locals' articles/Amira Hadi/UnearthingCairoHiddenGems";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -77,6 +78,10 @@ const router = createBrowserRouter(
       <Route path="AVegetariansGuide" element={<AVegetariansGuide />} />
       <Route path="CairoBestSeafood" element={<CairoBestSeafood />} />
       <Route path="CairoFoodMarkets" element={<CairoFoodMarkets />} />
+      <Route
+        path="UnearthingCairoHiddenGems"
+        element={<UnearthingCairoHiddenGems />}
+      />
     </Route>
   )
 );
