@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import main from "../assets/main-video.mp4";
+import main from "../assets/main.webm";
 import { IoCloseCircleOutline } from "react-icons/io5";
 import { IoPlayCircleOutline } from "react-icons/io5";
 
@@ -22,7 +22,7 @@ const Main = () => {
       <div className="w-[100vw] h-[70vh]">
         <div
           id="overlay"
-          className="w-[100vw] h-[70vh] absolute bg-black opacity-10"
+          className="w-[100vw] h-[70vh] absolute bg-black opacity-5"
         ></div>
         <div className="absolute text-white text-2xl sm:text-4xl w-[100%] h-[70%] flex justify-center items-center font-serif">
           <h1>Follow The Sun</h1>
