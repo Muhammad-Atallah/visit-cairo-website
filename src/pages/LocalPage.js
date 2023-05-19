@@ -80,22 +80,27 @@ const LocalPage = ({ image, title, quote, about, guides, favoriteSpots }) => {
         <div className="grid grid-flow-row">
           {activeSection === "spots" &&
             favoriteSpots.map((item) => (
-              <div className="flex flex-col md:flex-row gap-4 p-5 border-2 m-1 hover:border-4 rounded-sm">
+              <div className="flex flex-col md:flex-row gap-4 p-5 border-2 m-1 hover:border-4 rounded-sm mx-10">
                 <img
                   className="w-[14rem] sm:w-[20rem] md:w-[12rem] lg:w-[20rem] object-cover self-center rounded-sm"
                   src={item.image}
                   alt=""
                 />
-                <div className="flex flex-col gap-3 w-[12rem] sm:w-[20rem] md:w-auto">
+                <div className="flex flex-col gap-3 w-full sm:w-[20rem] md:w-auto">
                   <h1 className="text-sm lg:text-base font-bold self-center md:self-start">
                     {item.title}
                   </h1>
                   <h2 className="uppercase text-xs self-center md:self-start">
                     {item.classification}
                   </h2>
-                  <p className="text-xs lg:text-sm">{item.description}</p>
-                  <a className="flex items-center gap-1" href={item.link}>
-                    <h1 className="text-xs lg:text-sm text-[#fc9696]">
+                  <p className="text-xs lg:text-sm text-center md:text-left self-center md:self-start">
+                    {item.description}
+                  </p>
+                  <a
+                    className="flex items-center gap-1 self-center md:self-start"
+                    href={item.link}
+                  >
+                    <h1 className=" text-xs lg:text-sm text-[#fc9696]">
                       Open in Google Maps
                     </h1>
                     <span>
