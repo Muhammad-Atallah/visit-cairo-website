@@ -17,16 +17,18 @@ export const localsData = [
         to: "/UnearthingCairoHiddenGems",
       },
       {
-        image: require("../images/Local Page/Amira Fathi/2.jpg"),
+        image: require("../images/articles/Locals' Articles/Amira Hadi/StreetFoodAdventures/main-image.jpg"),
         title:
           "Street Food Adventures: Exploring Cairo's Culinary Delights with a Local Foodie",
         classification: "Restaurants",
+        to: "/StreetFoodAdventures",
       },
       {
-        image: require("../images/Local Page/Amira Fathi/3.jpg"),
+        image: require("../images/articles/Locals' Articles/Amira Hadi/EmbracingCulturalDiversity/main-image.jpg"),
         title:
           "Embracing Cultural Diversity: A Journey through Cairo's Traditions and Festivals",
         classification: "Culture",
+        to: "/EmbracingCulturalDiversity",
       },
     ],
     favoriteSpots: [
