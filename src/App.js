@@ -37,6 +37,9 @@ import CairoFoodMarkets from "./articles/food articles/CairoFoodMarkets";
 import UnearthingCairoHiddenGems from "./articles/locals' articles/Amira Hadi/UnearthingCairoHiddenGems";
 import StreetFoodAdventures from "./articles/locals' articles/Amira Hadi/StreetFoodAdventures";
 import EmbracingCulturalDiversity from "./articles/locals' articles/Amira Hadi/EmbracingCulturalDiversity";
+import ExploringCairoWithKids from "./articles/locals' articles/Magdi Gamal/ExploringCairoWithKids";
+import CairoLesserKnownAttractions from "./articles/locals' articles/Magdi Gamal/CairoLesserKnownAttractions";
+import BestHammamsAndSpas from "./articles/locals' articles/Magdi Gamal/BestHammamsAndSpas";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -89,6 +92,15 @@ const router = createBrowserRouter(
         path="EmbracingCulturalDiversity"
         element={<EmbracingCulturalDiversity />}
       />
+      <Route
+        path="ExploringCairoWithKids"
+        element={<ExploringCairoWithKids />}
+      />
+      <Route
+        path="CairoLesserKnownAttractions"
+        element={<CairoLesserKnownAttractions />}
+      />
+      <Route path="BestHammamsAndSpas" element={<BestHammamsAndSpas />} />
     </Route>
   )
 );

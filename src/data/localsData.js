@@ -92,67 +92,70 @@ export const localsData = [
       "Magdi is a family man who loves spending time with his wife and kids. He is also an ambitious businessman who is always looking for new opportunities. He values hard work and dedication and believes that anything is possible with the right mindset. As a father, Magdi loves taking his children to fun and educational places around Cairo. He also enjoys exploring new restaurants and trying out different types of cuisine with his family. Despite his busy schedule, he always makes time for his loved ones and cherishes the moments they spend together.",
     guides: [
       {
-        image: require("../images/Local Page/Andrew Atef/1.jpg"),
+        image: require("../images/articles/Locals' Articles/Magdi Gamal/ExploringCairoWithKids/main-image.jpeg"),
         title: "Exploring Cairo with Kids: My Favorite Family-Friendly Spots",
         classification: "Activities",
+        to: "/ExploringCairoWithKids",
       },
       {
-        image: require("../images/Local Page/Andrew Atef/2.jpg"),
+        image: require("../images/articles/Locals' Articles/Magdi Gamal/CairoLesserKnownAttractions/main-image.jpg"),
         title: "Exploring Cairo's Lesser-Known Attractions",
         classification: "Attractions",
+        to: "/CairoLesserKnownAttractions",
       },
       {
-        image: require("../images/Local Page/Andrew Atef/3.jpg"),
+        image: require("../images/articles/Locals' Articles/Magdi Gamal/BestHammamsAndSpas/main-image.jpg"),
         title: "A Guide to the Best Hammams and Spas in Cairo",
         classification: "Activities",
+        to: "/BestHammamsAndSpas",
       },
     ],
     favoriteSpots: [
       {
-        image: require("../images/Local Page/Amira Fathi/spots/Egyptian-Museum-Cairo.jpg"),
+        image: require("../images/Local Page/Magdi Gamal/spots/dream-park.jpg"),
         title: "Dream Park",
-        classification: "Museums",
-        link: "https://goo.gl/maps/F9aj9RfRjcHfhfbDA",
+        classification: "activities",
+        link: "https://www.google.com/maps/place/Dream+park/@29.9660103,31.0532135,17z/data=!3m1!4b1!4m6!3m5!1s0x14585047f0e3c811:0x7208480f9185410f!8m2!3d29.9660057!4d31.0580898!16s%2Fg%2F122brkdl",
         description:
           "A fun-filled amusement park with a variety of rides and attractions suitable for all ages. It's the perfect place for a family day out, and the kids will love it!",
       },
       {
-        image: require("../images/Local Page/Amira Fathi/spots/Egyptian-Museum-Cairo.jpg"),
+        image: require("../images/Local Page/Magdi Gamal/spots/wadi-al-rayan.jpg"),
         title: "Wadi El-Rayan",
-        classification: "Museums",
-        link: "https://goo.gl/maps/vzupZ3qj1EYDC1Gm8",
+        classification: "activities",
+        link: "https://www.google.com/maps/place/Wadi+El+Rayan/@29.1908612,30.3533892,12z/data=!3m1!4b1!4m6!3m5!1s0x145bef777593e399:0x42b67909acc99ad8!8m2!3d29.1908915!4d30.4011911!16s%2Fg%2F1v24_lh9",
         description:
           "A stunning natural reserve located about 100 km southwest of Cairo. Magdi loves to take his family here to enjoy the beautiful scenery, swim in the crystal-clear lakes, and have a picnic in the great outdoors.",
       },
       {
-        image: require("../images/Local Page/Amira Fathi/spots/Egyptian-Museum-Cairo.jpg"),
+        image: require("../images/Local Page/Magdi Gamal/spots/baron-palace.jpg"),
         title: "Baron Palace",
-        classification: "Activities",
-        link: "https://goo.gl/maps/4n8f4gbUcB6KsYdS7",
+        classification: "Attractions",
+        link: "https://www.google.com/maps/place/Baron+Empain+Palace/@30.0866921,31.3277322,17z/data=!3m1!4b1!4m6!3m5!1s0x14583e21f28cf1d7:0x30bcfb14f962d52c!8m2!3d30.0866875!4d31.3303125!16s%2Fm%2F0crfyrv",
         description:
           "A beautiful and historic mansion located in the Heliopolis neighborhood of Cairo. Magdi loves to come here with his family and explore the grand halls and beautiful gardens.",
       },
       {
-        image: require("../images/Local Page/Amira Fathi/spots/Egyptian-Museum-Cairo.jpg"),
+        image: require("../images/Local Page/Magdi Gamal/spots/abou-shakra.jpg"),
         title: "Abou Shakra",
-        classification: "Activities",
-        link: "https://goo.gl/maps/4n8f4gbUcB6KsYdS7",
+        classification: "Restaurants",
+        link: "https://www.google.com/maps/place/Abou+Shakra+Restaurants/@30.0868033,31.3095735,14z/data=!4m10!1m2!2m1!1sAbou+Shakra+Restaurants!3m6!1s0x14583e23a6169925:0xe98e3008a48843de!8m2!3d30.084892!4d31.3330944!15sChdBYm91IFNoYWtyYSBSZXN0YXVyYW50cyIDiAEBWhkiF2Fib3Ugc2hha3JhIHJlc3RhdXJhbnRzkgEKcmVzdGF1cmFudOABAA!16s%2Fg%2F1tdjmt_3",
         description:
           "This restaurant is another family favorite. The food is consistently delicious, and the menu offers a great selection of traditional Egyptian dishes. Plus, the restaurant has a cozy atmosphere that makes it a great spot for families to gather and enjoy a meal together.",
       },
       {
-        image: require("../images/Local Page/Amira Fathi/spots/Egyptian-Museum-Cairo.jpg"),
+        image: require("../images/Local Page/Magdi Gamal/spots/cairo-opera.jpg"),
         title: "Cairo Opera House",
-        classification: "Restaurants",
-        link: "https://goo.gl/maps/4n8f4gbUcB6KsYdS7",
+        classification: "Attractions",
+        link: "https://www.google.com/maps/place/Cairo+Opera+House/@30.0423659,31.2210879,17z/data=!3m1!4b1!4m6!3m5!1s0x1458411b18beb2fb:0x4bb773a7745b4aba!8m2!3d30.0423613!4d31.2236682!16zL20vMDZtNjVo",
         description:
           "As a lover of music, I can't recommend the Cairo Opera House enough. They offer a wide range of performances, from classical to contemporary, and the building itself is a stunning work of architecture.",
       },
       {
-        image: require("../images/Local Page/Amira Fathi/spots/Egyptian-Museum-Cairo.jpg"),
+        image: require("../images/Local Page/Magdi Gamal/spots/tab3i.jpg"),
         title: "El Tabei El Domyati",
         classification: "Restaurants",
-        link: "https://goo.gl/maps/4n8f4gbUcB6KsYdS7",
+        link: "https://www.google.com/maps/place/El+Tabei/@30.0544923,31.1974783,17z/data=!3m1!4b1!4m6!3m5!1s0x1458412af742da31:0x6198879e72e6c7d6!8m2!3d30.0544877!4d31.2023546!16s%2Fg%2F11bzs3b76m",
         description:
           "A favorite among locals, this restaurant serves up delicious Egyptian home-style cooking. Their molokhia and stuffed vine leaves are particularly noteworthy.",
       },
